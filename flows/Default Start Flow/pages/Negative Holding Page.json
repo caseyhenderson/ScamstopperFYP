@@ -1,0 +1,16 @@
+{
+  "name": "072c3ad3-5270-4c60-83be-671cd3bdab1f",
+  "displayName": "Negative Holding Page",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "small_talk.confirmation.cancel",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "d80bc43d-474d-4277-a1db-2335372c823a"
+  } ],
+  "transitionRouteGroups": [ "Conversational - About the Chatbot" ]
+}

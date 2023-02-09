@@ -1,0 +1,47 @@
+{
+  "name": "23cb34d2-3f14-48c7-be9c-e851498e4184",
+  "displayName": "Question Two",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Second question! Example question ..." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "small_talk.confirmation.cancel",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "c1e72eec-7bfc-4369-b733-dd0ac9cac0c8"
+  }, {
+    "intent": "small_talk.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hmm, you've replied yes to Q2." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Three",
+    "name": "34c5f809-9f7e-4a04-93c4-04ab799c7018"
+  }, {
+    "intent": "small_talk.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hmm, replied no to Q2" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Three",
+    "name": "dead528a-3cc4-4e1a-b5fa-e7b9f0b716dd"
+  } ]
+}

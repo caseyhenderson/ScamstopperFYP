@@ -1,0 +1,16 @@
+{
+  "name": "47ee7149-93af-48aa-9d79-bbf24c9499b9",
+  "displayName": "Misc",
+  "transitionRoutes": [ {
+    "intent": "smalltalk-hallam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Absolutely not! I think you're being scammed." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b71b34f0-919a-4e3f-acd9-170e1ec71556"
+  } ]
+}

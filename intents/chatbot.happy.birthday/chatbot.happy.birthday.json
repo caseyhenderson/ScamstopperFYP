@@ -1,0 +1,10 @@
+{
+  "name": "f0ad3746-2a2e-4cc7-8f32-9b0c1adf6ce3",
+  "displayName": "chatbot.happy.birthday",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "description": "When the user is nice and wishes the chatbot a happy birthday!"
+}

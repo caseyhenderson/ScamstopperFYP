@@ -1,0 +1,6 @@
+{
+  "name": "54ca7c89-b471-4d51-9d2e-73165e5ed134",
+  "displayName": "conversational.chatbot.identity",
+  "priority": 500000,
+  "description": "Intent handling questions from the user about 'who' the chatbot is."
+}

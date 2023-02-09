@@ -1,0 +1,104 @@
+{
+  "name": "81fe3fa2-1ee4-4024-a812-ec1b38a43779",
+  "displayName": "Conversational - User Opinion of Chatbot",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.annoying",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "So are you, do you hear me complaining?", "Have you ever tried using Siri?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "161b6eb5-7a88-493e-920a-bb43a88912cb"
+  }, {
+    "intent": "conversational.chatbot.crazy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Crazy, am I?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c1842f8e-3ff2-454b-b268-8d54943ad091"
+  }, {
+    "intent": "conversational.chatbot.answer.question",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Working on it now! Can you say it again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7e0a5f3e-637e-4b1b-b6b9-118b2237df18"
+  }, {
+    "intent": "conversational.chatbot.bad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7ea701d1-a03b-41bb-a4fb-4b001aefcb44"
+  }, {
+    "intent": "conversational.chatbot.smarter",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "In theory ..." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cd5056cd-95ec-4bf1-a37d-709c91fdf549"
+  }, {
+    "intent": "conversational.chatbot.beautiful",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! So are you!", "You're my favourite human!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3ec82d00-af17-418d-8468-45b7d8ffa40b"
+  }, {
+    "intent": "conversational.chatbot.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I was created on the 8th Feb, 2023. Add that to your calendar! :)", "I came into this world on the 8th February, and all scammers trembled in fear." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cbe83bc6-53cf-4922-a5d2-fd36be067a18"
+  }, {
+    "intent": "chatbot.happy.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! Happy birthday to me!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7a8cf796-0d6b-4706-956f-a64dada3b8f9"
+  }, {
+    "intent": "conversational.chatbot.boring",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "da4a8829-5b12-4326-ab00-94fb710ed729"
+  } ]
+}
