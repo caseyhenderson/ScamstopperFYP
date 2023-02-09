@@ -37,8 +37,24 @@
   }, {
     "intent": "conversational.chatbot.how.it.works",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "I work in mysterious ways ...", "I'm a computer program designed to help people avoid scams! I was programmed to talk to people in natural language, with no complicated tech terms." ]
+        },
+        "languageCode": "en"
+      } ]
     },
     "name": "31a386bb-1424-4db1-87b9-bf4b3be89b25"
+  }, {
+    "intent": "conversational.chatbot.maker",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm here to help anyone with questions about how to stay safe online!", "I HAVE NO MASTER" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c02ccc1c-346b-4f3e-a623-9f8be984c0f6"
   } ]
 }

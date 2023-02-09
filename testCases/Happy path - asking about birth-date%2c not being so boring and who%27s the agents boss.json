@@ -80,7 +80,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.boss"
+        "name": "conversational.chatbot.maker"
       },
       "currentPage": {
         "name": "Request",

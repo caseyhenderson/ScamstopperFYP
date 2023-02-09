@@ -79,7 +79,7 @@
     },
     "name": "cbe83bc6-53cf-4922-a5d2-fd36be067a18"
   }, {
-    "intent": "chatbot.happy.birthday",
+    "intent": "conversational.chatbot.happy.birthday",
     "triggerFulfillment": {
       "messages": [ {
         "text": {

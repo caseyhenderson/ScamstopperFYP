@@ -68,7 +68,7 @@
     },
     "name": "2991091a-0e98-4d9e-93e1-41e43bb3caba"
   }, {
-    "intent": "small_talk.agent.boss",
+    "intent": "conversational.chatbot.maker",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
