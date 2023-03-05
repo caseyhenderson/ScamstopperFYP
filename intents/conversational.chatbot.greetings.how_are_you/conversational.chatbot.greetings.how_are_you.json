@@ -1,0 +1,9 @@
+{
+  "name": "b8ae8f69-930b-4325-8941-8b3b111ab756",
+  "displayName": "conversational.chatbot.greetings.how_are_you",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

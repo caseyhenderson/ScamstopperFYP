@@ -1,0 +1,51 @@
+{
+  "name": "95cfbaf0-61a2-47b6-9d63-c7c3992d5a02",
+  "displayName": "Flow Complete",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We're all done! The decision is EXAMPLE_HERE. Got any more questions, or just want to talk? Then feel free to ask away!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "30b67bea-6dc7-4464-95e9-e2ad945ef24c"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "2e7c7764-4707-4c86-9fd6-3f0aeb3f2856"
+  }, {
+    "intent": "conversational.chatbot.confirmation.cancel",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "dd2d39b9-21ac-4d39-82ae-7f873deddab8"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "989fbaae-4dc2-4fbe-aebf-c2610471be84"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "e34e3601-dbe8-4803-a12e-a76b515dc90f"
+  } ]
+}

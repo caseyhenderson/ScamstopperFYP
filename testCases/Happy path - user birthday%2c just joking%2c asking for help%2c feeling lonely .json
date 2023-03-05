@@ -14,7 +14,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.hello"
+        "name": "conversational.chatbot.greetings.hello"
       },
       "currentPage": {
         "name": "Request",
@@ -101,7 +101,7 @@
         }
       },
       "triggeredIntent": {
-        "name": "small_talk.agent.can_you_help"
+        "name": "conversational.chatbot.can.you.help"
       },
       "currentPage": {
         "name": "Request",

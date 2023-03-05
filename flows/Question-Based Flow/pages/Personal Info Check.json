@@ -1,0 +1,23 @@
+{
+  "name": "60c7d288-000f-4feb-9246-c2b2131e9b6b",
+  "displayName": "Personal Info Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hey there! Ask any questions you have about personal information, and how to keep it safe online." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Questions Complete Gate",
+    "name": "fe1e9f60-ece6-47d9-b709-0b531191b313"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "c6643b8f-c97f-4a06-9691-825801e31190",
+  "displayName": "Text Upload Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi there! Please send me the text of the message or email that you'd like me to check. Just copy and paste it into the chat." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

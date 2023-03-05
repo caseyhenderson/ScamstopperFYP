@@ -1,0 +1,44 @@
+{
+  "name": "83ebac2b-709d-4d36-a963-58d235dbdde8",
+  "displayName": "Chatbot - Confirmation",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.cancel",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Understood, cancelled." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8d9e550f-b3ad-4308-8907-50cc24028fba"
+  }, {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's a good start! Scammers often use extremely similar email addresses / phone numbers to try and trick people into thinking they're legitimate." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "63c5b431-f960-47d3-91e2-d1e02997ab19"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Understood.", "OK." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "65d3f11e-b0b4-4621-acec-794aeb4f74c1"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+    
+    },
+    "name": "42c2df05-576b-48ac-99a7-4f30bf9f4e39"
+  } ]
+}

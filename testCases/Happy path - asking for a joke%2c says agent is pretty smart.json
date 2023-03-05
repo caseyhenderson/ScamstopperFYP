@@ -36,7 +36,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.tell_a_joke"
+        "name": "0a855b93-7dbf-40d1-9d91-104f5e110d5b"
       },
       "currentPage": {
         "name": "Request",
@@ -58,7 +58,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.clever"
+        "name": "conversational.chatbot.clever"
       },
       "currentPage": {
         "name": "Request",
@@ -80,7 +80,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.bye"
+        "name": "conversational.chatbot.greetings.bye"
       },
       "currentPage": {
         "name": "End Session",

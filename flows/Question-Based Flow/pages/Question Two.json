@@ -1,0 +1,64 @@
+{
+  "name": "4ffcc93f-d039-4f18-97de-e166fa2263fe",
+  "displayName": "Question Two",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Second question! Does the message ask you to click on a link?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Check the URL carefully to make sure it's what you expect. Scammers often use official-sounding links to get you to give up personal information: however, if you click the address bar, you can see the link and check it's correct." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Three",
+    "name": "33e6c2a4-a65b-44a9-b699-1af98334eadb"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's good! It's important to always be careful when clicking links (especially unexpected ones), so make sure to check before you click. And, if you're already on the page, it's a good ides to check the address bar before you do anything else." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Three",
+    "name": "81c97f29-f39d-4524-8a29-2813e15b0493"
+  }, {
+    "intent": "conversational.chatbot.confirmation.cancel",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK, cancelling now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "9e25c6b3-1293-4989-a8bc-575e2b2e1f09"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK, I can check that link for you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Link Check",
+    "name": "8ad5b4ff-bf59-4d3a-b782-bce899c083b1"
+  } ]
+}

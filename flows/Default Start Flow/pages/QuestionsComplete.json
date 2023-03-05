@@ -12,5 +12,5 @@
       "languageCode": "en"
     } ]
   },
-  "transitionRouteGroups": [ "Conversational - About the Chatbot", "Conversational - User Opinion of Chatbot" ]
+  "transitionRouteGroups": [ "Conversational - Chatbot Personal Info / Status", "Conversational - Chatbot Responses to User Opinion of it", "Appraisal", "Conversational - Chatbot Emotions", "Conversational - Dialogue", "Conversational - Greetings", "Scam - User Advice", "Scam - User Concern", "Scam - User Direct Help", "User" ]
 }

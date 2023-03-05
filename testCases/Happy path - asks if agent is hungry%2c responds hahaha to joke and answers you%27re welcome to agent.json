@@ -38,7 +38,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.hungry"
+        "name": "07d31ecf-3be7-4b43-8415-56566cfea057"
       },
       "currentPage": {
         "name": "Request",
@@ -110,7 +110,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.bye"
+        "name": "conversational.chatbot.greetings.bye"
       },
       "currentPage": {
         "name": "End Session",

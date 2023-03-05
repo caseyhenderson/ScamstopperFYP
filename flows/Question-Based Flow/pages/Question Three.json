@@ -1,0 +1,44 @@
+{
+  "name": "7aced5f3-e434-48ca-b5a1-978867bb56dc",
+  "displayName": "Question Three",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hey there! Last question: is the email or message asking for personal info?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Questions Complete Gate",
+    "name": "fde570cf-0ef3-4a7c-af53-2e19fdb99e26"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Questions Complete Gate",
+    "name": "3e7adaa6-56bf-43e5-9c28-d4e81fc95f7d"
+  }, {
+    "intent": "conversational.chatbot.confirmation.cancel",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "077111b9-6cb1-4669-a296-9c5b72797279"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Personal Info Check",
+    "name": "99d28a39-e51c-436a-8e16-afbc1e2b1164"
+  } ]
+}

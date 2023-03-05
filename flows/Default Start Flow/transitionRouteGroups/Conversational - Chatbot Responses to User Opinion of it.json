@@ -1,0 +1,204 @@
+{
+  "name": "81fe3fa2-1ee4-4024-a812-ec1b38a43779",
+  "displayName": "Conversational - Chatbot Responses to User Opinion of it",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.annoying",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "So are you, do you hear me complaining?", "Have you ever tried using Siri?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "161b6eb5-7a88-493e-920a-bb43a88912cb"
+  }, {
+    "intent": "conversational.chatbot.crazy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Crazy, am I?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c1842f8e-3ff2-454b-b268-8d54943ad091"
+  }, {
+    "intent": "conversational.chatbot.answer.question",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Working on it now! Can you say it again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7e0a5f3e-637e-4b1b-b6b9-118b2237df18"
+  }, {
+    "intent": "conversational.chatbot.bad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7ea701d1-a03b-41bb-a4fb-4b001aefcb44"
+  }, {
+    "intent": "conversational.chatbot.smarter",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "In theory ..." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cd5056cd-95ec-4bf1-a37d-709c91fdf549"
+  }, {
+    "intent": "conversational.chatbot.beautiful",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! So are you!", "You're my favourite human!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3ec82d00-af17-418d-8468-45b7d8ffa40b"
+  }, {
+    "intent": "conversational.chatbot.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I was created on the 8th Feb, 2023. Add that to your calendar! :)", "I came into this world on the 8th February, and all scammers trembled in fear." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cbe83bc6-53cf-4922-a5d2-fd36be067a18"
+  }, {
+    "intent": "conversational.chatbot.happy.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! Happy birthday to me!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7a8cf796-0d6b-4706-956f-a64dada3b8f9"
+  }, {
+    "intent": "conversational.chatbot.boring",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "da4a8829-5b12-4326-ab00-94fb710ed729"
+  }, {
+    "intent": "conversational.chatbot.clever",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you very much!", "Glad I can help!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cdcaf00a-ecf7-47e7-8595-868289812f72"
+  }, {
+    "intent": "conversational.chatbot.fired",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I don't think so. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "afee34d4-687a-4049-b54d-6850ee207f3c"
+  }, {
+    "intent": "conversational.chatbot.funny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's always nice to put a smile on a user's face :)", "See, computers can do comedy!", "And they say AI has no sense of humour", "I like it when I make people laugh!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9b00571a-c63d-4b03-b898-754ff5755f33"
+  }, {
+    "intent": "conversational.chatbot.good",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! It's always nice to help people!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8242cc9e-2fed-4b9d-a284-067355703f73"
+  }, {
+    "intent": "conversational.chatbot.marry.user",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm not sure that's legal yet ... but I am flattered" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6c8d7515-bc16-4bfc-abb0-38d899443231"
+  }, {
+    "intent": "conversational.chatbot.friend",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course!", "Humans and Scamstopper against the world!", "Best friends forever!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "48d7060c-4f78-488b-965d-34e53a20c61b"
+  }, {
+    "intent": "conversational.chatbot.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Definitely.", "I'm 100% sure." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "31540848-b426-4094-8bfa-bc4484a0c530"
+  }, {
+    "intent": "conversational.chatbot.right",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Naturally.", "Glad you think so." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3ec972b0-ef06-4166-957d-d4c0bf0a3d84"
+  }, {
+    "intent": "billy.skin.thief",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "go away billy", "no you can''t have my skin", "chatbots don't have skin to steal, Billy", "don't traumatise my AI, Billy", "Fear me, Billy", "How about I take YOUR skin?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1a4cfb17-8089-48e1-9664-24b60a6d777b"
+  } ]
+}

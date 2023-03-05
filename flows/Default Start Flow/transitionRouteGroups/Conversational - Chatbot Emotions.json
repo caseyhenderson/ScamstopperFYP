@@ -1,4 +1,16 @@
 {
   "name": "dcf067e5-a58d-41ae-ac77-71cb01b991c9",
-  "displayName": "Conversational - Chatbot Emotions"
+  "displayName": "Conversational - Chatbot Emotions",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.happy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I am, particularly when I'm helping people avoid scams!", "I'm always happy, and I love busting scams." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c86daad8-2541-4cad-b91d-72a8693307a8"
+  } ]
 }

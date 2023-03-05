@@ -20,7 +20,7 @@
     "targetPage": "End Session",
     "name": "b5e9b58b-9f7e-40f0-b2bd-70e5cdd3c033"
   }, {
-    "intent": "small_talk.greetings.bye",
+    "intent": "conversational.chatbot.greetings.bye",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -38,5 +38,5 @@
     },
     "name": "7828dadc-2267-486d-a2af-d42b5df2ae4e"
   } ],
-  "transitionRouteGroups": [ "Confirmation", "Agent", "Appraisal", "Dialog", "Emotions", "Greetings", "User", "Misc", "Conversational - About the Chatbot" ]
+  "transitionRouteGroups": [ "Conversational - Confirmation", "Appraisal", "Conversational - Dialogue", "Emotions", "Conversational - Greetings", "User", "Conversational - Chatbot Personal Info / Status", "Conversational - Chatbot Responses to User Opinion of it", "Conversational - Chatbot Emotions", "Conversational - About the User" ]
 }

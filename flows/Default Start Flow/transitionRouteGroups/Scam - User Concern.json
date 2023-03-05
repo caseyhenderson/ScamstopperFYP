@@ -1,0 +1,41 @@
+{
+  "name": "ee52402b-9ca6-4113-b73e-6fc2db97afcf",
+  "displayName": "Scam - User Concern",
+  "transitionRoutes": [ {
+    "intent": "user_thinks_they're_being_scammed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm here to help. Let's figure out if this is a scam or not." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Gate",
+    "name": "bfc3f58e-d6b8-4878-93b7-4d8f7171fb7b"
+  }, {
+    "intent": "user.worried.about.scam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's OK. Lots of interactions on the Internet can be scary or confusing. I'm here to help you.", "It's OK to be worried. I'll help you figure out if this situation is a scam, and if it is, I'll show you what to do." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Gate",
+    "name": "297c5d99-b218-46b3-a56f-53124a662412"
+  }, {
+    "intent": "user.strange.email",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It can often be worrying when you receive a strange email. I'm here to help." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Gate",
+    "name": "cb5718df-b773-4a5f-a97e-7dc1a6514972"
+  } ]
+}

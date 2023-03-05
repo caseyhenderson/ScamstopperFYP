@@ -33,7 +33,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.hello"
+        "name": "conversational.chatbot.greetings.hello"
       },
       "currentPage": {
         "name": "Request",
@@ -55,7 +55,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.bye"
+        "name": "conversational.chatbot.greetings.bye"
       },
       "currentPage": {
         "name": "End Session",

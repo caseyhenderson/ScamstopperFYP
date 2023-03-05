@@ -1,0 +1,6 @@
+{
+  "name": "931cc8b4-dbd4-492c-ba01-06cf58cf2c3b",
+  "displayName": "conversational.chatbot.you.are.a.chatbot",
+  "priority": 500000,
+  "description": "When the user directly states or asks if Scamstopper is a chatbot"
+}

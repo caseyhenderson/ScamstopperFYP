@@ -1,0 +1,52 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "good@gmail.com",
+      "parameterId": "email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "It is ",
+      "auto": true
+    }, {
+      "text": "good@gmail.com",
+      "parameterId": "email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The address is ",
+      "auto": true
+    }, {
+      "text": "example@email.com",
+      "parameterId": "email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "example@email.com",
+      "parameterId": "email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The email is ",
+      "auto": true
+    }, {
+      "text": "example@email.com",
+      "parameterId": "email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

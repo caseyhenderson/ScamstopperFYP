@@ -1,5 +1,26 @@
 {
   "trainingPhrases": [ {
+    "parts": [ {
+      "text": "sup?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what's up?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "yo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
     "id": "19cd2285-4807-4ad5-b313-26f3191310e7",
     "parts": [ {
       "text": "just going to say hi",

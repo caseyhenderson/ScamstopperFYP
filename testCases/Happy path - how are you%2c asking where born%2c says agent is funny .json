@@ -14,7 +14,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.hello"
+        "name": "conversational.chatbot.greetings.hello"
       },
       "currentPage": {
         "name": "Request",
@@ -36,7 +36,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.how_are_you"
+        "name": "conversational.chatbot.greetings.how_are_you"
       },
       "currentPage": {
         "name": "Request",
@@ -80,7 +80,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.origin"
+        "name": "e6bfb277-0ff5-4d0d-9c65-6d0561fd7694"
       },
       "currentPage": {
         "name": "Request",
@@ -146,7 +146,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.funny"
+        "name": "conversational.chatbot.funny"
       },
       "currentPage": {
         "name": "Request",
@@ -168,7 +168,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.confirmation.yes"
+        "name": "conversational.chatbot.confirmation.yes"
       },
       "currentPage": {
         "name": "Request",
@@ -190,7 +190,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.bye"
+        "name": "conversational.chatbot.greetings.bye"
       },
       "currentPage": {
         "name": "End Session",

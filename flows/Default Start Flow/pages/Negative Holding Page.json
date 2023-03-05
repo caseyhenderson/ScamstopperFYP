@@ -5,12 +5,12 @@
   
   },
   "transitionRoutes": [ {
-    "intent": "small_talk.confirmation.cancel",
+    "intent": "conversational.chatbot.confirmation.cancel",
     "triggerFulfillment": {
     
     },
     "targetPage": "End Flow",
     "name": "d80bc43d-474d-4277-a1db-2335372c823a"
   } ],
-  "transitionRouteGroups": [ "Conversational - About the Chatbot" ]
+  "transitionRouteGroups": [ "Conversational - Chatbot Personal Info / Status" ]
 }

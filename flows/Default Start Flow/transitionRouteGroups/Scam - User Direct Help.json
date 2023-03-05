@@ -1,0 +1,17 @@
+{
+  "name": "19cd9cba-8644-408c-8421-74494dc008ae",
+  "displayName": "Scam - User Direct Help",
+  "transitionRoutes": [ {
+    "intent": "user.has.message.they.want.checking",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course! I'm going to need to see the text, so please copy-and-paste it into the chat box. Don't worry - copy and pasting it is perfectly safe.", "Absolutely! I'm going to need to see the text, so please copy-and-paste it into the chat box. Don't worry - copy and pasting it is perfectly safe." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Text Upload Page",
+    "name": "21004c5d-b6f7-4132-b0e4-d4fd4d72c122"
+  } ]
+}

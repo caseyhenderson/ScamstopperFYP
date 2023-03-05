@@ -14,7 +14,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.hello"
+        "name": "conversational.chatbot.greetings.hello"
       },
       "currentPage": {
         "name": "Request",
@@ -36,7 +36,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.tell_a_joke"
+        "name": "0a855b93-7dbf-40d1-9d91-104f5e110d5b"
       },
       "currentPage": {
         "name": "Request",
@@ -58,7 +58,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.tell_a_joke"
+        "name": "0a855b93-7dbf-40d1-9d91-104f5e110d5b"
       },
       "currentPage": {
         "name": "Request",
@@ -80,7 +80,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.agent.tell_a_joke"
+        "name": "0a855b93-7dbf-40d1-9d91-104f5e110d5b"
       },
       "currentPage": {
         "name": "Request",
@@ -124,7 +124,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.good_night"
+        "name": "conversational.chatbot.greetings.good_night"
       },
       "currentPage": {
         "name": "End Session",

@@ -7,13 +7,13 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "First question: does the email address look correct? For example, an email from Google should be from a @google.com email address. Check carefully - scammers use very similar email addresses! If you need advice on how to check, look here." ]
+        "text": [ "First question: does the email address look correct? For example, an email from Google should be from a @google.com email address. Check carefully - scammers use very similar email addresses! " ]
       },
       "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "small_talk.confirmation.yes",
+    "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -25,7 +25,7 @@
     "targetPage": "Question Two",
     "name": "a94f4b3a-4154-4888-a1f1-ac1d82d19b5d"
   }, {
-    "intent": "small_talk.confirmation.no",
+    "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -37,7 +37,7 @@
     "targetPage": "Question Two",
     "name": "8a699f8c-19b1-43d2-915c-039dad8fa158"
   }, {
-    "intent": "small_talk.confirmation.cancel",
+    "intent": "conversational.chatbot.confirmation.cancel",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -48,5 +48,17 @@
     },
     "targetPage": "End Flow",
     "name": "f230d028-5043-468e-a158-73b1b566ef16"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's OK! I'll check that email address for you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Email Address Check",
+    "name": "1828e6d1-9c38-44f3-ae15-9663b79ee45c"
   } ]
 }

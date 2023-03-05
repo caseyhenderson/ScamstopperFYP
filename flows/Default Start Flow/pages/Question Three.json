@@ -7,13 +7,13 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Hey there! Last question, coming right up." ]
+        "text": [ "Hey there! Last question: is the email or message asking for personal info?" ]
       },
       "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "small_talk.confirmation.cancel",
+    "intent": "conversational.chatbot.confirmation.cancel",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -25,14 +25,19 @@
     "targetPage": "End Flow",
     "name": "9c6bd1c6-0adf-42d0-ad13-5bd1bb7c9228"
   }, {
-    "intent": "small_talk.confirmation.yes",
+    "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Asking for personal info, particularly out of the blue, is a classic sign of a scam. Think twice before providing personal info, and remember that legitimate businesses and organisations won't pressure you for it." ]
+        },
+        "languageCode": "en"
+      } ]
     },
     "targetPage": "QuestionsComplete",
     "name": "7c822646-315e-487f-81d2-69154c2196d9"
   }, {
-    "intent": "small_talk.confirmation.no",
+    "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
     
     },

@@ -29,6 +29,7 @@
   
   },
   "bigqueryExportSettings": {
-  
+    "enabled": true,
+    "bigqueryTable": "projects/river-cocoa-377215/datasets/ConversationalData/tables/dialogflow_bigquery_export_data"
   }
 }

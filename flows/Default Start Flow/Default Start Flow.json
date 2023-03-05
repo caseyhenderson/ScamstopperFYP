@@ -14,7 +14,7 @@
     },
     "name": "d0b998fc-429f-4e55-ab39-e2dc22e97632"
   }, {
-    "intent": "small_talk.greetings.good_morning",
+    "intent": "conversational.chatbot.greetings.good_morning",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -26,7 +26,7 @@
     "targetPage": "Request",
     "name": "c6bb2479-7e47-4cfe-b3ed-573a7907c2d1"
   }, {
-    "intent": "small_talk.greetings.good_evening",
+    "intent": "conversational.chatbot.greetings.good_evening",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -38,7 +38,7 @@
     "targetPage": "Request",
     "name": "68b7e684-7747-45b5-a9f4-bdebd52bdf40"
   }, {
-    "intent": "small_talk.greetings.hello",
+    "intent": "conversational.chatbot.greetings.hello",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -83,5 +83,6 @@
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "transitionRouteGroups": [ "Scam - User Concern", "Conversational - Chatbot Responses to User Opinion of it" ]
 }

@@ -1,0 +1,29 @@
+{
+  "name": "b7f33c7c-9bc8-4f56-bc94-b5a9a2a49b7c",
+  "displayName": "Email Address Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide the email address." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "user.email.check",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks for supplying the email! Moving on to Question Two." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Two",
+    "name": "bbbe2f33-7df0-4767-a834-ebbba8348e2d"
+  } ]
+}

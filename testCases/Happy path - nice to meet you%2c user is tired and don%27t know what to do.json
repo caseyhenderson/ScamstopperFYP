@@ -36,7 +36,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "small_talk.greetings.nice_to_meet_you"
+        "name": "conversational.chatbot.greetings.nice_to_meet_you"
       },
       "currentPage": {
         "name": "Request",

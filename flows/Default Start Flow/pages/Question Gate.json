@@ -13,7 +13,7 @@
     } ]
   },
   "transitionRoutes": [ {
-    "intent": "small_talk.confirmation.yes",
+    "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -25,7 +25,7 @@
     "targetPage": "Question One",
     "name": "d61d3de3-2853-4db4-824b-6eb7246f865a"
   }, {
-    "intent": "small_talk.confirmation.no",
+    "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
       "messages": [ {
         "text": {

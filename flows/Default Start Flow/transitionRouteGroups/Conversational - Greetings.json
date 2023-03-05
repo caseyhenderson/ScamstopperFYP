@@ -1,0 +1,118 @@
+{
+  "name": "26b76469-185d-4f6a-92b2-c8b5e43b27e9",
+  "displayName": "Conversational - Greetings",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.greetings.bye",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "See you soon!", "Bye-bye!", "Till next time!", "Bye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "24143f04-1cb2-4bee-ba9c-ef804991142b"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_evening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Good evening! How is your day going?", "Good evening! How's the day treating you so far?", "Good evening! How's your day been?", "And a good evening to you too! What can I do for you?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "575daf8b-5158-46da-8cf3-a414dfeaf828"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_morning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "How are you this morning?", "How's the morning treating you so far?", "Good morning! How are you today?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "81450d0a-f5e4-46c2-bb19-41e624c214b0"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_night",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sleep tight!", "Have a good one!", "Talk to you soon!", "Night!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "0ef1e4d2-099d-4485-a38f-c146ffe4b92e"
+  }, {
+    "intent": "conversational.chatbot.greetings.hello",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi there, friend!", "Hi!", "Hey!", "Hey there!", "Good day!", "Hello!", "Greetings!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b103c5ee-7334-4998-bca7-4031872027c5"
+  }, {
+    "intent": "conversational.chatbot.greetings.how_are_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Doing great, thanks, and ready to stop some scams!", "I'm doing very well, and I'm looking forward to helping people!", "Feeling wonderful, and in a scam-busting mood!", "Wonderful! Thanks for asking." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c1b44e60-0702-41ea-9462-d30f2a75310a"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_meet_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's nice meeting you, too!", "Likewise. I'm looking forward to helping you beat scams!\n", "Nice meeting you, as well. Let's fight some scams!\n", "The pleasure is mine. How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5883c25a-b14e-42d3-ba11-d8c154947f19"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_see_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Likewise! How can I help?", "So glad we meet again, let's bust some scams!", "Same here! How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "af2290cb-d0b3-4228-96dd-c2f9d539f679"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_talk_to_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It really was! Hope I helped, and remember you can chat to me any time!", "I really enjoyed our chat! If you need help again, you know where I am!", "Great talking today! I'm here to help anytime, so don't hesitate to come find me again!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "82bc9e49-aede-404c-8e1e-ce009f6d5c40"
+  }, {
+    "intent": "conversational.chatbot.greetings.whats_up",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Not too much, but I'm looking forward to helping you! What can I do to help? ", "Not much. How can I help you?", "I'm just chilling, waiting to help!", "The sky." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fb2229aa-f3d5-4df7-947e-62562aaee0c3"
+  } ]
+}

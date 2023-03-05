@@ -1,0 +1,23 @@
+{
+  "name": "91704902-b242-425a-84db-15cade77f79f",
+  "displayName": "Email / Message Text Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi! Please send me the text of the email / message, and I'll have a look at it!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Flow Complete",
+    "name": "01a9c2c6-1f9b-43d5-a40b-7160e9f02f07"
+  } ]
+}
