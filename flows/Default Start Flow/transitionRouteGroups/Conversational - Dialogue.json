@@ -2,7 +2,7 @@
   "name": "97ae5e89-3d04-4bcd-b14a-a26b9b7e365f",
   "displayName": "Conversational - Dialogue",
   "transitionRoutes": [ {
-    "intent": "conversational.chatbot.dialog.hold_on",
+    "intent": "conversational.chatbot.dialogue.hold_on",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -13,7 +13,7 @@
     },
     "name": "61221453-b4e3-4b59-8115-9bb4447aaf5c"
   }, {
-    "intent": "conversational.chatbot.dialog.hug",
+    "intent": "conversational.chatbot.dialogue.hug",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -24,7 +24,7 @@
     },
     "name": "e193722d-8d5a-4956-881c-2067d6c85f50"
   }, {
-    "intent": "conversational.chatbot.dialog.i_do_not_care",
+    "intent": "conversational.chatbot.dialogue.i_do_not_care",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -35,7 +35,7 @@
     },
     "name": "0fbb28a4-4dc0-4587-aa52-37100fb0e006"
   }, {
-    "intent": "conversational.chatbot.dialog.sorry",
+    "intent": "conversational.chatbot.dialogue.sorry",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -46,7 +46,7 @@
     },
     "name": "8003e05c-7030-470d-9dfd-a610a35f2c25"
   }, {
-    "intent": "conversational.chatbot.dialog.what_do _you_mean",
+    "intent": "conversational.chatbot.dialogue.what_do _you_mean",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -57,7 +57,7 @@
     },
     "name": "0b04c620-c4bd-49aa-811b-aa47935609e8"
   }, {
-    "intent": "conversational.chatbot.dialog.wrong",
+    "intent": "conversational.chatbot.dialogue.wrong",
     "triggerFulfillment": {
       "messages": [ {
         "text": {

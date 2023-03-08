@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "How many questions do I need to answer yes to for it to be a scam?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How do you score the likelihood of a scam?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

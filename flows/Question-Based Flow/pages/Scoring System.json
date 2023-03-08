@@ -1,0 +1,76 @@
+{
+  "name": "1b46c35e-cac7-4c75-92ea-29354c7684b9",
+  "displayName": "Scoring System",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "How many questions did you answer yes to?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "scoring.system.none",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If you answered zero, then it's likely that the situation is not a scam. Chances are, you don't need to worry." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Flow Complete",
+    "name": "02fd58a8-9f51-4c2e-a3da-5a59eadc322d"
+  }, {
+    "intent": "scoring.system.one",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If you answered yes to one of those questions, it's possible that you have encountered a scam, particularly if the email or message you received was unexpected.                                            I'm working on a plan - in the mean-time, here are some resources which may help:                                                                     Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/                                                            Action Fraud (a Police website) if you think you've been a victim of fraud                      \nhttps://www.actionfraud.police.uk/                                                            Which?                                                                                                       https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Further Action",
+    "name": "94104e35-466e-4c4e-860f-85f309018fe9"
+  }, {
+    "intent": "scoring.system.two",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If you've answered yes to two of the questions, that means it's pretty likely that you've encountered a scam. You can find some helpful info here while I work on a plan.              \nCitizen’s Advice\nhttps://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/\nAction Fraud \nhttps://www.actionfraud.police.uk/\nWhich?\nhttps://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Further Action",
+    "name": "0bf3ab02-5b67-40dc-8f29-d4c9711f0b7b"
+  }, {
+    "intent": "scoring.system.three",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If you've answered yes to all questions, there's a very good chance that you've encountered a scam. Here are some useful links while I work on a plan                                   \nCitizen’s Advice\nhttps://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/\nAction Fraud \nhttps://www.actionfraud.police.uk/\nWhich?\nhttps://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Further Action",
+    "name": "90f29d06-27e3-4301-b5fc-31b864203af2"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problem. For guidance, this is how I score the chances of something being a scam, with the numbers being the questions a user answers 'yes' to :                                                                   0: Scam unlikely, but the user can still check the text just in case.                                                                                                             1: Some chance of a scam. User can check the text with me, and I'll also offer some options of further action.                            2: Scam likely. Further action recommended - I'll show you what to do.                                                                                               3: Scam very likely. I'll show you what you can do in terms of further action, and how to do it.                   " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Further Action",
+    "name": "a3a67df4-aded-46ff-a671-beaa534ef794"
+  } ]
+}

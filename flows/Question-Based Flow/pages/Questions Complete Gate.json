@@ -34,7 +34,7 @@
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Flow Complete",
+    "targetPage": "Scoring System",
     "name": "e1f8ee8c-1c5f-4f59-8101-e2e79656f06d"
   }, {
     "intent": "conversational.chatbot.confirmation.cancel",
@@ -53,7 +53,7 @@
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Flow Complete",
+    "targetPage": "Scoring System",
     "name": "328f64f1-49a5-4093-bafb-fd5492e592ef"
   } ]
 }

@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What are the most common scams?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are some common scams?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

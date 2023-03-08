@@ -1,0 +1,37 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "two",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": " of them",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "two questions",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "2",
+      "parameterId": "number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "two",
+      "parameterId": "number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

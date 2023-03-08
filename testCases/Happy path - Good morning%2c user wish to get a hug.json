@@ -36,7 +36,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "conversational.chatbot.dialog.hug"
+        "name": "conversational.chatbot.dialogue.hug"
       },
       "currentPage": {
         "name": "Request",

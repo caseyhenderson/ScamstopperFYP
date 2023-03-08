@@ -1,0 +1,71 @@
+{
+  "name": "827aecc9-f84b-4fa2-ac7d-92765b95156f",
+  "displayName": "Chatbot - Appraisal",
+  "transitionRoutes": [ {
+    "intent": "small_talk.appraisal.bad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry. Please let me know if I can help in some way!", "I must be missing some information. My developer will look into this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5e9676ef-a2ba-434f-9403-eca0464e8e5b"
+  }, {
+    "intent": "small_talk.appraisal.good",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I know, right?", "Agreed!", "I agree!", "Glad you think so!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "af90a031-644a-4287-ad34-7d12756d62ec"
+  }, {
+    "intent": "small_talk.appraisal.no_problem",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm relieved, thanks!", "That's good!", "Glad to hear that!", "Whew!", "Alright, thanks!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7f38cf20-3c40-448d-b013-7f8fdd1cf9b4"
+  }, {
+    "intent": "small_talk.appraisal.thank_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Anytime. That's what I'm here for!", "It's my pleasure.", "I'm happy to help!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2c878d05-95a1-4f78-858e-2acb02820b68"
+  }, {
+    "intent": "small_talk.appraisal.welcome",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks!", "You're polite, thank you!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c1850f89-5e83-467a-8287-89aa586c4163"
+  }, {
+    "intent": "small_talk.appraisal.well_done",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "My pleasure.", "Glad I could help.", "Happy to help!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "be3217ca-574e-4019-b61f-118326cfe3fc"
+  } ]
+}

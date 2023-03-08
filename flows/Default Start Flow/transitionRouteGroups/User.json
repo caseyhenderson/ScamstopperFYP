@@ -6,7 +6,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "I'm sorry. A quick walk may make you feel better.", "Take a deep breath. " ]
+          "text": [ "I'm sorry. A quick walk may make you feel better.", "Take a deep breath. ", "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering." ]
         },
         "languageCode": "en"
       } ]

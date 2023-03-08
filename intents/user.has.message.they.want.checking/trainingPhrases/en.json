@@ -1,6 +1,20 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "check please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Check this email",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "I think this email is a scam, can you check it?",
       "auto": true
     } ],

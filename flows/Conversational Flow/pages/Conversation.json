@@ -3,5 +3,6 @@
   "displayName": "Conversation",
   "form": {
   
-  }
+  },
+  "transitionRouteGroups": [ "Chatbot - Emotions", "Chatbot - About the User", "Chatbot - Personal Info / Status", "Chatbot - Responses to User Opinion", "Chatbot - Confirmation", "Chatbot - Feedback", "User - Switch Flow", "User - Scam Advice", "User - Scam Questions", "User - Scam Actions, Concern etc", "Chatbot - Dialogue", "Chatbot - Greetings", "Chatbot - Appraisal", "User - Thoughts, Feelings, Status", "Scam - User Direct Help", "Chatbot - Misc", "Common Follow-Up Questions" ]
 }

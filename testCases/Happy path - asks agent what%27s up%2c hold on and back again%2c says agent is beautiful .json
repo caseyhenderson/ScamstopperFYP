@@ -58,7 +58,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "conversational.chatbot.dialog.hold_on"
+        "name": "conversational.chatbot.dialogue.hold_on"
       },
       "currentPage": {
         "name": "Request",

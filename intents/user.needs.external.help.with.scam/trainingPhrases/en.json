@@ -1,0 +1,24 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "If I've been scammed, where can I get help from?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "If it is a scam, where do I get help?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where can I get help with this scam?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

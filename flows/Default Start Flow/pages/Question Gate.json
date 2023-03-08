@@ -22,7 +22,7 @@
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Question One",
+    "targetFlow": "Question-Based Flow",
     "name": "d61d3de3-2853-4db4-824b-6eb7246f865a"
   }, {
     "intent": "conversational.chatbot.confirmation.no",

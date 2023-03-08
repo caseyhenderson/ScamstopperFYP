@@ -1,0 +1,9 @@
+{
+  "name": "eb934160-22d5-4d7c-9301-88f12c6ead16",
+  "displayName": "scoring.system.none",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000
+}

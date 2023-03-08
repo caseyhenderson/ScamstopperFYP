@@ -1,0 +1,26 @@
+{
+  "name": "48e50a5b-7a6b-4685-919b-e3fad1ea3dc1",
+  "displayName": "User - Switch Flow",
+  "transitionRoutes": [ {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "7ba1112e-339e-4e07-a5ee-8c75382fffa7"
+  }, {
+    "intent": "chatbot.enter_question_flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "57a69c96-8f29-42e2-97fc-3529f49c5aca"
+  }, {
+    "intent": "chatbot.enter.start.flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "19aaedb2-55fe-433a-b0cb-a774d45ed9e0"
+  } ]
+}

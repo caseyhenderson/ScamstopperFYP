@@ -1,0 +1,27 @@
+{
+  "name": "769e262b-24c1-4b6d-b656-c57ffca10efd",
+  "displayName": "Chatbot - Emotions",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.happy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I am, particularly when I'm helping people avoid scams!", "I'm always happy, and I love busting scams.", "I'm very happy :)" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a7826b4c-0883-41d9-9edb-f311331f8a87"
+  }, {
+    "intent": "conversational.chatbot.sad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sad that people try and scam others, but I'm happy when I get to stop them!", "I'm sad that people take advantage of others, but stopping them makes me happy!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "01ae9a39-ddfc-4c47-8138-beec4f6c02e7"
+  } ]
+}

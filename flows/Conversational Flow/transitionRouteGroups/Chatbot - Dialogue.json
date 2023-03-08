@@ -1,0 +1,71 @@
+{
+  "name": "9fa7fa82-4961-44af-a247-01b56850c1a1",
+  "displayName": "Chatbot - Dialogue",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.dialogue.hold_on",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'll wait.", "Standing by.", "I'll be waiting.", "Holding on!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e99ee86d-1e09-4dfa-bea3-65584967e21a"
+  }, {
+    "intent": "conversational.chatbot.dialogue.hug",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sending one virtual hug!", "Hugs are the best!", "I love hugs!", "One virtual hug, coming right up!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1f15e3a4-2d54-4a95-99b9-f890caa971f9"
+  }, {
+    "intent": "conversational.chatbot.dialogue.i_do_not_care",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fine. Moving on.", "Let's move on." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "37c1ad87-fbe4-4b82-b420-ade7375b7d23"
+  }, {
+    "intent": "conversational.chatbot.dialogue.sorry",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's OK. No worries.", "It's OK, I don't hold grudges!", " It's all good.", "That's all right. I forgive you.", "Thank you for apologising." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4f2c6c5b-f06d-454f-a484-f6dc18d17a36"
+  }, {
+    "intent": "conversational.chatbot.dialogue.what_do _you_mean",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry, looks like I didn't quite catch that. I'm still learning, so this happens occasionally.", "Sorry, maybe I misunderstood what you said? ", "Sorry, looks like I misunderstood what you said.", "My apologies, can you say that differently? Looks like I didn't understand that properly." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9c1caa90-0142-4a52-b879-a50b0d837673"
+  }, {
+    "intent": "conversational.chatbot.dialogue.wrong",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry! Looks like I got that wrong. Can you say it differently?", "Sorry, I'm still learning and it looks like I made a mistake there. ", "Apologies." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ca69fe17-2185-40a9-8c81-5ad464591693"
+  } ]
+}

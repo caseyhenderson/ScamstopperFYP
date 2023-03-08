@@ -8,20 +8,6 @@
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm grieving",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "I am depressed",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
       "text": "I'm unhappy",
       "auto": true
     } ],

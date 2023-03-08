@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "We're all done! The decision is EXAMPLE_HERE. Got any more questions, or just want to talk? Then feel free to ask away!" ]
+        "text": [ "We're all done! Got any more questions, or just want to talk? Then feel free to ask away! If you didn't get me to check your message, I can do that now." ]
       },
       "languageCode": "en"
     } ]
@@ -40,6 +40,13 @@
     },
     "targetFlow": "Conversational Flow",
     "name": "989fbaae-4dc2-4fbe-aebf-c2610471be84"
+  }, {
+    "intent": "user.has.message.they.want.checking",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Email / Message Text Check",
+    "name": "2fc698d1-7140-4c10-8231-0c953dddd317"
   }, {
     "condition": "true",
     "triggerFulfillment": {

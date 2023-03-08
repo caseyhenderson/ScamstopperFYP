@@ -1,6 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "What should I know about scams?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "How can I spot a scam?",
       "auto": true
     } ],
@@ -9,13 +16,6 @@
   }, {
     "parts": [ {
       "text": "What are the signs you look for?",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "What should I knoow about scams?",
       "auto": true
     } ],
     "repeatCount": 1,

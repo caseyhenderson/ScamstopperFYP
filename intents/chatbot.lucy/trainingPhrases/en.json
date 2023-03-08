@@ -1,0 +1,22 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Lucy",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm ",
+      "auto": true
+    }, {
+      "text": "Lucy",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

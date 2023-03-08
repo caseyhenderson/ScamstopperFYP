@@ -1,0 +1,49 @@
+{
+  "name": "47559102-228e-4084-a6e0-965cf24af59d",
+  "displayName": "Chatbot - Confirmation",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.cancel",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK, that is forgotten now.", "Cancelled.", "Cancel complete." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f5b11401-2780-4111-9671-a2eb81b7d466"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Understood.", "Okay.", "I see.", "I understand." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d5aa615a-f3d3-4bbf-b88d-6d469bd6cba4"
+  }, {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great!", "All right!", "Good!", "Good stuff!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f3c556ca-9fbf-4ec9-92c6-885a621baea2"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's no problem.", "No worries.", "No problem, how can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d086fe25-4106-4862-a3fc-3498c5103783"
+  } ]
+}

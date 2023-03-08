@@ -80,7 +80,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "conversational.chatbot.dialog.i_do_not_care"
+        "name": "conversational.chatbot.dialogue.i_do_not_care"
       },
       "currentPage": {
         "name": "Request",

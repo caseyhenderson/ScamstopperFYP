@@ -5,7 +5,12 @@
   
   },
   "entryFulfillment": {
-  
+    "messages": [ {
+      "text": {
+        "text": [ "I can start the question process, or we can just chat, and you can ask what you'd like! Which would you prefer?" ]
+      },
+      "languageCode": "en"
+    } ]
   },
   "transitionRoutes": [ {
     "intent": "small_talk.appraisal.thank_you",
@@ -31,6 +36,37 @@
     },
     "targetPage": "End Session",
     "name": "ccc5613e-6e1e-4f3a-b67f-18b376bd7837"
+  }, {
+    "intent": "chatbot.enter_question_flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course! I'll start the questions now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "6884ac6c-e86d-4935-891c-7876490f9626"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Let's chat!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "09a5b594-af8b-419f-846a-b273f176f553"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "da65d5d8-0792-43a3-baef-bde01d1db3e5"
   }, {
     "condition": "true",
     "triggerFulfillment": {

@@ -1,4 +1,11 @@
 {
   "name": "2cd93eed-1e1f-4f74-869e-c5dad21b149a",
-  "displayName": "Conversational Questions"
+  "displayName": "Conversational Questions",
+  "transitionRoutes": [ {
+    "intent": "chatbot.how.do.you.score.scam",
+    "triggerFulfillment": {
+    
+    },
+    "name": "4f487a99-eeb5-4e99-8a4d-5715b5298db5"
+  } ]
 }

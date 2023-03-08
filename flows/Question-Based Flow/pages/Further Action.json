@@ -1,0 +1,23 @@
+{
+  "name": "45a08dee-85f1-4900-a083-21f378c6cb42",
+  "displayName": "Further Action",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is a placeholder Further Action page for when Scamstopper thinks it's likely that a user has been scammed." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Flow Complete",
+    "name": "89ded81f-5283-4e7e-a49a-f63e30971025"
+  } ]
+}

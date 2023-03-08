@@ -102,7 +102,7 @@
     },
     "virtualAgentOutput": {
       "triggeredIntent": {
-        "name": "conversational.chatbot.dialog.sorry"
+        "name": "conversational.chatbot.dialogue.sorry"
       },
       "currentPage": {
         "name": "Request",

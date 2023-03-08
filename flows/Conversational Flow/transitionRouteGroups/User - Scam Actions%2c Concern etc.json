@@ -1,0 +1,41 @@
+{
+  "name": "db63514d-75e0-4a1b-a5ce-af938f676221",
+  "displayName": "User - Scam Actions, Concern etc",
+  "transitionRoutes": [ {
+    "intent": "user_thinks_they're_being_scammed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I understand. Please answer three simple questions, and we'll get to the bottom of this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "114aa6b0-aa0f-4d3e-a91c-b3cbba0ee9ee"
+  }, {
+    "intent": "user.worried.about.scam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's OK to be worried. I'll help you figure out if this situation is a scam, and if it is, I'll show you what to do.", "That's OK. Lots of interactions on the Internet can be scary or confusing. I'm here to help you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "2fb2a0d2-557b-432e-898f-5d53806d0ef8"
+  }, {
+    "intent": "user.strange.email",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It can often be worrying when you receive a strange email. I'm here to help.", "Sorry to hear that. I'm here to help, and we'll get to the bottom of this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "51d1c562-c62b-4cae-ab4f-ff8de431a3a2"
+  } ]
+}

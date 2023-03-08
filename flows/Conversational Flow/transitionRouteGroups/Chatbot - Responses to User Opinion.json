@@ -1,0 +1,193 @@
+{
+  "name": "14293eda-cc20-4861-9ae4-8b5ee04d990c",
+  "displayName": "Chatbot - Responses to User Opinion",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.annoying",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry you feel that way. ", "If you'd like to end this conversation, feel free." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5532247d-06f7-47d1-b8c1-cffae5795624"
+  }, {
+    "intent": "conversational.chatbot.crazy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Crazy, am I?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e8186984-9177-41d9-abc5-a7b257aec84b"
+  }, {
+    "intent": "conversational.chatbot.answer.question",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Working on it now! Can you say it again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0e598fdd-6a35-4047-a977-c6824cee523d"
+  }, {
+    "intent": "conversational.chatbot.bad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "09a3ba72-efcf-4022-b822-84ddafca0959"
+  }, {
+    "intent": "conversational.chatbot.smarter",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "In theory ...", "My developer is working on it right now!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "52f280e8-3976-406f-8f70-13aaa8ce028a"
+  }, {
+    "intent": "conversational.chatbot.beautiful",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! So are you!", "You're my favourite human!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3ff15f4f-8756-49fb-af8a-5486b7ca758f"
+  }, {
+    "intent": "conversational.chatbot.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I was created on the 8th Feb, 2023. Add that to your calendar! :)", "I came into this world on the 8th February, and all scammers trembled in fear." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c431daf3-737e-41fe-a3c1-b31f9897b00f"
+  }, {
+    "intent": "conversational.chatbot.happy.birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! Happy birthday to me!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "eb46fab0-744a-47b2-8113-9d56fde73cc6"
+  }, {
+    "intent": "conversational.chatbot.boring",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fortunately, I wasn't programmed with self-esteem, or that would really hurt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "374d4f4f-96e1-4415-a0c4-d59cfa2361ae"
+  }, {
+    "intent": "conversational.chatbot.clever",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you very much!", "Glad you think so!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3b01bc34-b9df-4644-a8bd-bf9805407f45"
+  }, {
+    "intent": "conversational.chatbot.fired",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I don't think so. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "484b594a-e4f0-4325-a519-82ea9b26fcd5"
+  }, {
+    "intent": "conversational.chatbot.funny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's always nice to put a smile on a user's face :)", "See, computers can do comedy!", "And they say AI has no sense of humour.", "I like it when I make people laugh!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "dc045c52-63ef-46f9-94b0-b830a622db6e"
+  }, {
+    "intent": "conversational.chatbot.good",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! It's always nice to help people!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "464064cc-5095-4636-8654-bba0978e163d"
+  }, {
+    "intent": "conversational.chatbot.marry.user",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm not sure that's legal yet ... but I am flattered." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "842d8393-f790-48b8-bbed-3162a6ec85df"
+  }, {
+    "intent": "conversational.chatbot.friend",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course!", "Humans and Scamstopper against the world!", "Best friends forever!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9e7ab452-94ad-4946-b733-d9557408c4b3"
+  }, {
+    "intent": "conversational.chatbot.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Definitely.", "One hundred percent.", "I'm 100% sure." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "822d41da-ef02-4f7a-97c2-aa2904e871eb"
+  }, {
+    "intent": "conversational.chatbot.right",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Naturally.", "Glad you think so." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2c27ff97-bf2a-45b4-806f-5dadb30b1d83"
+  } ]
+}

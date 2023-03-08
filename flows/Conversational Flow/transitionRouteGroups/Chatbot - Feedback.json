@@ -1,0 +1,16 @@
+{
+  "name": "071afed1-7b95-42a0-a819-9eea0b6c1520",
+  "displayName": "Chatbot - Feedback",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.good.feedback",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! Always nice to get good feedback." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d654dcfe-9699-4af9-971d-27573c738c77"
+  } ]
+}

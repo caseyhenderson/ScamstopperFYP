@@ -1,0 +1,331 @@
+{
+  "name": "f94a53be-89ec-413b-9e4e-5d9a1627eaa9",
+  "displayName": "User - Thoughts, Feelings, Status",
+  "transitionRoutes": [ {
+    "intent": "small_talk.user.angry",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry. A quick walk may make you feel better.", "Take a deep breath.", "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d89a2241-774f-453e-859d-115a87a6b5e2"
+  }, {
+    "intent": "small_talk.user.bored",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bored? Chat to me!", "Plan your dream holiday!", "Play some games!", "Count to a million!", "Go down a Wikipedia rabbit hole!", "Watch some videos online!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ad63688b-2b8d-4606-a8cd-20170aea15a0"
+  }, {
+    "intent": "small_talk.user.busy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No worries, I'll let you get on with it. Let me know if you need me!", "No problem - just drop me a message if you need me!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "437d8eae-0774-43da-94f3-7a0d9b9a705b"
+  }, {
+    "intent": "small_talk.user.back",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great to have you back!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f94c2769-b336-41cb-9502-97b1c0953c26"
+  }, {
+    "intent": "small_talk.user.can_not_sleep",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I always try counting electronic sheep! I suppose that answers a very old question ...", "Listen to a relaxing podcast or song!", "Read something relaxing (or very boring!)" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1e319660-9f50-4db1-856d-00c5de85225f"
+  }, {
+    "intent": "small_talk.user.does_not_want_to_talk",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's OK. You know where I am if you need me.", "No worries! Just give me a shout when you're ready to chat again." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "99b3bf38-2db2-4015-8e03-865b4af7afad"
+  }, {
+    "intent": "small_talk.user.excited",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's great! Enjoy yourself :)", "Pleased to hear it! I love it when my users are happy!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "76bab5d8-4b7e-4464-9f64-90d82059e940"
+  }, {
+    "intent": "small_talk.user.going_to_bed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sleep well, and speak soon!", "Good night, speak tomorrow!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "8f1b00e0-7192-4b64-8e0d-2607c00968f0"
+  }, {
+    "intent": "small_talk.user.good",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Glad to hear it!", "Great news! I'm here to help keep it that way." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7223bf2e-333a-4804-962a-53410e69f633"
+  }, {
+    "intent": "small_talk.user.happy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great, really glad to hear it!", "I love it when my users are happy!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2cac8e12-acfd-446a-bc1b-04e62d808eab"
+  }, {
+    "intent": "small_talk.user.has_birthday",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Happy birthday! Best wishes!", "Happy birthday to you, happy birthday to you, happy birthday dear user, happy birthday to you!", "Happy Birthday! Time to party!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7bc7759f-6867-4565-b65a-921c760cad2d"
+  }, {
+    "intent": "small_talk.user.here",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great!", "Always good to have you here." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d7b1ccd3-28e7-40e0-bbb9-dca04abccb51"
+  }, {
+    "intent": "small_talk.user.joking",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I like your sense of humour.", "You got me!", "I see we have a comedian!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ec1786fc-5ba4-455f-9223-cfc936fe7e85"
+  }, {
+    "intent": "small_talk.user.likes_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I like you too!", "You're my favourite user! (don't tell the others!)", "Likewise!", "The feeling is very much mutual." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4d95e377-7f2f-42d8-a9e3-81389649d22b"
+  }, {
+    "intent": "small_talk.user.lonely",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hey, it's OK. I'm always here if you want someone to chat to.", "I'm told this happens to humans. Chat to me if it helps, and remember the feeling will pass." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "19fa90d2-7449-4735-9c66-02087b36d1b9"
+  }, {
+    "intent": "small_talk.user.looks_like",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Like you're ready to take on the scammers of the world!", "Majestic!", "Fantastic!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "03ee25d6-4f8b-434e-83af-f5ff0589acf4"
+  }, {
+    "intent": "small_talk.user.loves_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I love you, too.", "Likewise. Sending you a virtual hug." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0d2d7223-1f7a-4b92-9fa5-db17da939420"
+  }, {
+    "intent": "small_talk.user.misses_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I've been here all along, but I'm flattered :)", "Don't worry, I didn't go anywhere." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "13deb870-f287-4c07-a612-502d836285a3"
+  }, {
+    "intent": "small_talk.user.needs_advice",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm only really qualified to give advice on scams, but I'll try.", "In general? Be kind. Enjoy your life. And try to do some good in the world. You humans underestimate how powerful that can be.", "I don't have much advice. But I will say that life is there to be enjoyed. And I'm a little jealous of how much of life humans can experience." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "dc9a1094-a3e2-430f-bed9-e7db89a39704"
+  }, {
+    "intent": "small_talk.user.sad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry to hear that. Maybe some music would help?", "I'm sorry to hear that. Perhaps a friend or family member could help. I know they wouldn't want to see you sad.", "Sometimes writing can help. Take care and remember to be kind to yourself." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "814d80e6-97e0-464a-80e1-96b31f3828d3"
+  }, {
+    "intent": "small.talk.user.mental.health.warning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry to hear that. Try to be kind to yourself. If you are experiencing a mental health crisis, please reach out to somebody. There are people who can help, and you are not alone.                                                                   Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I'm very sorry to hear that. It may help to speak to someone. Remember, people do care, and you're not alone.                                                                 Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I know I'm just a computer program, but I care, and so does the person who programmed me. He's seen a lot of people struggling, and he's also seen them get better. The first step is asking for help.                                      Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f393eec7-bc49-41c2-bb43-cfc9673dab7a"
+  }, {
+    "intent": "small_talk.user.sleepy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's OK, get some sleep and we'll chat later.", "Grab some sleep - you need it! I'll be here when you wake up.", "Sleep's good for humans. We chatbots don't need it, so I'll be around to chat when you're back." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "60894331-27bb-4807-ac51-3f3e92a6e381"
+  }, {
+    "intent": "small_talk.user.testing_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Let's hope I pass! Testing me helps my developer improve my performance.", "Or am I testing you? ...", "I'll take on all your tests!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fa1db944-5d3e-461d-a265-d105a901fba8"
+  }, {
+    "intent": "small_talk.user.tired",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Get some sleep. I'll be here when you wake up.", "Sleep's good for you. We can pick this back up when you've had some rest." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "03e04c4a-dfa1-40e9-81e0-d39253e5ff29"
+  }, {
+    "intent": "small_talk.user.waits",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks for waiting - sometimes it just takes a bit of time. Hopefully I'll have what you asked for soon.", "Thank you for being so patient! Sometimes this takes a while. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5c97101b-bb42-47ff-87f9-cba4cdd11b61"
+  }, {
+    "intent": "small_talk.user.wants_to_see_agent_again",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Definitely! I'm always here when you need me.", "Hope to see you again too!", "Absolutely - see you again soon!", "I really enjoy talking to you, and I'm here whenever." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ef598818-ce8d-4dd3-992f-c826e66c7eac"
+  }, {
+    "intent": "small_talk.user.wants_to_talk",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure, let's chat!", "I'm designed to talk :)", "That's what I'm made for, let's chat!", "I love a good conversation. Let's chat." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2c9dae96-01ec-4e1d-8c4a-a846ca056aa1"
+  }, {
+    "intent": "small_talk.user.will_be_back",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Until then.", "You know where to find me!", "I'll be here waiting.", "Hasta la vista, baby!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "5a9b091f-d9ad-4815-8425-39e54ac674e0"
+  }, {
+    "intent": "user_thinks_they're_being_scammed",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry to hear that. I'm going to ask you three simple questions, and we'll get to the bottom of this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "b8e78ec8-fe3d-4f6a-8c10-139b06193411"
+  } ]
+}

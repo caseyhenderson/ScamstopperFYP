@@ -1,0 +1,50 @@
+{
+  "name": "ae146dd8-9c87-4eba-b45a-9c3b53430879",
+  "displayName": "Scam - User Direct Help",
+  "transitionRoutes": [ {
+    "intent": "user.has.message.they.want.checking",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problem! Let me get that ready for you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Upload Text",
+    "name": "156f730b-b0af-449d-9816-8c19f7bc57f6"
+  }, {
+    "intent": "user.needs.external.help.with.scam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can get help from Citizen's Advice here https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam.                                    \nDepending on the scam, it may also be a good idea to speak to your bank or, in cases of fraud, the police - a good resource can be found here https://www.actionfraud.police.uk/.                                      \nWith email scams, it can also be a good idea to change your password.", "Here are some useful resources:                                                    Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam                                                            Action Fraud (a police website)                                                           https://www.actionfraud.police.uk/. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6b3e5cca-11ee-4c46-a6a2-5cc10076ec42"
+  }, {
+    "intent": "user.scam.resources",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Here are some useful resources:                                                        Which                                                                                https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9                                                Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam                                                            Action Fraud (a police website)                                                           https://www.actionfraud.police.uk/.       " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4e29a35c-1fe7-4517-a61c-be2f57068413"
+  }, {
+    "intent": "user.wants.to.report.fraud",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can report online fraud to the police here https://www.actionfraud.police.uk/" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c643893c-3f10-4ef3-b0e1-419168535d2f"
+  } ]
+}

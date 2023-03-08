@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I'd like to be a scammer",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to scam somebody",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -50,6 +50,30 @@
     "targetPage": "Request",
     "name": "58df7658-38e1-42be-b148-a5616d793dea"
   }, {
+    "intent": "chatbot.enter_question_flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course! I'll ask you three simple questions, and we'll get to the bottom of this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "ba72f8dd-d6f3-47b2-ab9c-475c1ee52483"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Let's chat!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "c9fe0ed1-d83a-44c8-a984-6490ac9c288c"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     
@@ -79,6 +103,18 @@
       } ]
     },
     "name": "0be95c74-231c-49f3-bb12-f9b4ea6f362b"
+  }, {
+    "targetFlow": "Conversational Flow",
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't catch that. Redirecting you to the conversational flow." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5879bfd4-7ad8-4c70-ba5e-dbea44a6ff43"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

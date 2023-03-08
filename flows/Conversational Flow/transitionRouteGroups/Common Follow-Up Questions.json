@@ -1,0 +1,27 @@
+{
+  "name": "8fc44f6e-b75c-4ae9-8636-e2c3ca87e92f",
+  "displayName": "Common Follow-Up Questions",
+  "transitionRoutes": [ {
+    "intent": "chatbot.favourite.album",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "My favourite album? It's got to be Whatever People Say I Am, That's What I'm Not. The best Arctic Monkeys album." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3d2accf6-8864-4e7b-9d2e-f928901a09da"
+  }, {
+    "intent": "user.another.sign.of.scam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Poor spelling and grammar, with lots of mistakes.", "Being asked to share personal info.", "An unexpected text or email, particularly from someone you don't know or wouldn't expect to hear from.", "Being asked to keep it a secret.", "Something that appears too good to be true - for example 'free money'.", "Being pressured to make a decision.", "Vague contact details.", "An email address that looks like an official one, but isn't spelt quite right (i.e. @gooogle.com)", "Anything asking for personal or financial information.", "An email that seems to come from an official source, but looks strange / is asking for something that source wouldn't (usually money or personal info)." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7d5d9066-0238-4a0b-a908-e6f640fb60bf"
+  } ]
+}

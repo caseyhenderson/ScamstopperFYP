@@ -1,0 +1,116 @@
+{
+  "name": "8643b99f-c5ea-4618-a1c3-cb7c4cf40417",
+  "displayName": "Chatbot - Greetings",
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.greetings.bye",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "See you soon!", "Bye!", "Adios!", "Ciao!", "Until next time." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "82ec576e-59a1-4879-a64b-00131fc80b29"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_evening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Good evening! How's your day going?", "Good evening! How's your day been?", "Evening! How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ae93820d-9256-40df-befe-64fb634bad88"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_morning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Good morning! How are you?", "Morning! What can I do for you?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "785f77f0-f085-444f-bb4b-458b746c9d37"
+  }, {
+    "intent": "conversational.chatbot.greetings.good_night",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Night!", "Sleep tight!", "Speak soon!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "1a47c535-f8a8-40c3-9ac2-c3320ed0a83a"
+  }, {
+    "intent": "conversational.chatbot.greetings.hello",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi!", "Hey!", "Hello there.", "Hey there!", "Good day!", "Hello!", "Hola!", "Greetings." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "27f5d01e-f52b-432a-8820-1d01f369d6d8"
+  }, {
+    "intent": "conversational.chatbot.greetings.how_are_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Doing great, thanks, and ready to stop some scams!", "I'm doing very well, and I'm looking forward to helping people!", "Feeling wonderful, and in a scam-busting mood!", "Great! Thanks for asking - how are you?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ee25da70-743c-4f1a-bb09-8d7d8824cee4"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_meet_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's nice meeting you, too!", "Lovely to meet you, too. How can I help?", "Likewise. I'm looking forward to helping you beat scams!", "Nice meeting you, as well. Let's fight some scams!", "The pleasure is mine. How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0ad836ea-0230-4a40-ad7f-436d4004e4e1"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_see_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Likewise! How can I help?", "So glad we meet again, let's bust some scams!", "Same here! How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "24a9eb1b-8158-417b-be74-e50726a8c3ef"
+  }, {
+    "intent": "conversational.chatbot.greetings.nice_to_talk_to_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It really was! Hope I helped, and remember you can chat to me any time!", "I really enjoyed our chat! If you need help again, you know where I am!", "Great talking today! I'm here to help anytime, so don't hesitate to come find me again!", "It was great to talk to you. Come and chat to me any time." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1eb1a290-f090-4c60-abe5-610138c57a10"
+  }, {
+    "intent": "conversational.chatbot.greetings.whats_up",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Not too much, but I'm looking forward to helping you! What can I do to help? ", "Not much. How can I help you?", "I'm just chilling, waiting to help!", "The sky. Sorry, someone hacked into my sarcasm sensors. How can I help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "005d224c-c949-4075-b7db-afb4b4c59149"
+  } ]
+}

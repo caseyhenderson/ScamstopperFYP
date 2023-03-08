@@ -1,0 +1,9 @@
+{
+  "name": "e0d0929c-f1e3-4f85-870d-3283c5eb1e7a",
+  "displayName": "chatbot.lucy",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000
+}

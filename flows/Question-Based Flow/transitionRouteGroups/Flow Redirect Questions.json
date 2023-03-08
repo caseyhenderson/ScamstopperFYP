@@ -1,4 +1,26 @@
 {
   "name": "ddb9009a-6feb-4450-b4b6-9f6d1a3fc3fd",
-  "displayName": "Flow Redirect Questions"
+  "displayName": "Flow Redirect Questions",
+  "transitionRoutes": [ {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "5a53c74d-4609-4524-96c2-b18596cb3cc3"
+  }, {
+    "intent": "chatbot.enter.start.flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "67c0321e-40ed-461a-9f6a-c6f1a4be31a1"
+  }, {
+    "intent": "chatbot.enter_question_flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "47ac0b38-43d7-4b2f-9c15-6b22b1e4d07e"
+  } ]
 }
