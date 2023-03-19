@@ -1,15 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Have you got anything I can read to help me with scams?",
-      "auto": true
+      "text": "Have you got anything I can read to help me with scams?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Are there any good websites that can help me?",
-      "auto": true
+      "text": "Are there any good websites that can help me?"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

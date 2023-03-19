@@ -18,7 +18,39 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "You can get help from Citizen's Advice here https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam.                                    \nDepending on the scam, it may also be a good idea to speak to your bank or, in cases of fraud, the police - a good resource can be found here https://www.actionfraud.police.uk/.                                      \nWith email scams, it can also be a good idea to change your password.", "Here are some useful resources:                                                    Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam                                                            Action Fraud (a police website)                                                           https://www.actionfraud.police.uk/. " ]
+          "text": [ "You can get help from the following places. It may also help to speak to your bank if you are concerned that financial information has been compromised." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam",
+              "text": "Citizen's Advice"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+              "text": "Which!"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.actionfraud.police.uk/",
+              "text": "ActionFraud UK"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       } ]
@@ -29,7 +61,39 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Here are some useful resources:                                                        Which                                                                                https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9                                                Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam                                                            Action Fraud (a police website)                                                           https://www.actionfraud.police.uk/.       " ]
+          "text": [ "Definitely! Check out the resources below.  " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam",
+              "text": "Citizen's Advice"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+              "text": "Which!"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.actionfraud.police.uk/",
+              "text": "ActionFraud UK"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       } ]
@@ -40,7 +104,23 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "You can report online fraud to the police here https://www.actionfraud.police.uk/" ]
+          "text": [ "You can report fraud by clicking the button below, which will take you to ActionFraud UK, a Police website." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": "Fraud Report"
+            },
+            "icon": {
+              "color": "#000080",
+              "type": "local_police"
+            },
+            "link": "https://www.actionfraud.police.uk/",
+            "text": "Report fraud here at ActionFraud UK, a Police website.",
+            "type": "button"
+          } ] ]
         },
         "languageCode": "en"
       } ]

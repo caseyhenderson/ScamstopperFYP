@@ -6,7 +6,36 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "My favourite album? It's got to be Whatever People Say I Am, That's What I'm Not. The best Arctic Monkeys album." ]
+          "text": [ "My favourite album? It's got to be Whatever People Say I Am, That's What I'm Not, by the Arctic Monkeys." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "The album cover for Whatever People Say I Am, That's What I'm Not, by the Arctic Monkeys. It depicts a man smoking a cigarette, looking into the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/wpsiatwin.jpeg",
+            "type": "image"
+          }, {
+            "actionLink": "https://en.wikipedia.org/wiki/Whatever_People_Say_I_Am,_That%27s_What_I%27m_Not",
+            "subtitle": "The debut 2006 album by the Arctic Monkeys",
+            "title": "Whatever People Say I Am, That's What I'm Not",
+            "type": "info"
+          }, {
+            "options": [ {
+              "link": "https://open.spotify.com/album/50Zz8CkIhATKUlQMbHO3k1?si=p2mLVPvIT0eMi-M6jAgQ0A",
+              "text": "Listen on Spotify"
+            }, {
+              "link": "https://music.apple.com/gb/album/whatever-people-say-i-am-thats-what-im-not/111153953",
+              "text": "Listen on Apple Music"
+            }, {
+              "link": "https://music.youtube.com/playlist?list=OLAK5uy_nbQ-Z3A6g3hfs2F5tpbNLjdiZ8H6S4U7U\u0026feature=gws_kp_album\u0026feature=gws_kp_artist",
+              "text": "Listen on YouTube Music"
+            }, {
+              "link": "https://www.deezer.com/album/401340?autoplay=true",
+              "text": "Listen on Deezer"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       } ]

@@ -1,28 +1,28 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "What are the signs of an email scam?",
+      "text": "greatest song?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "what are signs of an email scam?",
+      "text": "best song?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "signs an email is a scam",
+      "text": "what's your fav song",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "how do I know if an email is a scam?",
+      "text": "what's your favourite song?",
       "auto": true
     } ],
     "repeatCount": 1,

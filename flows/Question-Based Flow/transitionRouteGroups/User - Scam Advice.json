@@ -1,0 +1,38 @@
+{
+  "name": "ca97e0a9-bd64-467a-9fe2-311f98b2a4fc",
+  "displayName": "User - Scam Advice",
+  "transitionRoutes": [ {
+    "intent": "user.wants.info.on.scams",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A tell-tale sign of a scam is an email or message you weren't expecting, or something that seems too good to be true.", "Online scams typically target personal information, bank details, or login info. They can be extremely clever, and anyone can get scammed. Citizen's Advice have a good resource here with more information https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/", "Common scams include: emails that look like official ones (aimed at getting you to put your details in on a page controlled by the scammer), texts you weren't expecting (particularly ones with links in them), and emails or messages that want personal or financial information. Spelling and grammar mistakes are also a big give-away, as are vague contact details. You can find more here https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2ecc12c0-69ab-4a4d-9576-5f6d4b7f72dd"
+  }, {
+    "intent": "user.wants.email.signs",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "With an email specifically, it's important to check the email address. This may look convincing, but is typically where scammers fall down. For example, the domain (the bit after the @) is usually wrong on a scam email - i.e. @gogle.com instead of @google.com. You should also look out for spelling and grammar mistakes, vague contact info, and any signs that the email is pressuring you to make a decision.                                                                                                                        Find out more here https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9", "It's also important to check what the email is asking you to do - for example, is an email asking you for money? Banks typically don't send these kinds of emails, and genuine bank emails typically have a way of telling if they're genuine - often information a scammer would not know (for example, Nationwide include the customer's postcode). You should also look out for spelling and grammar mistakes, vague contact info, and any signs that the email is pressuring you to make a decision.                                                                                                           \nFind out more here https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "77a6bd1d-8f05-4d41-b528-d9b2db445a63"
+  }, {
+    "intent": "user.wants.to.scam.someone",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yeah, don't do that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "606bf192-6dbb-4df7-bc6b-e3ea200cb498"
+  } ]
+}

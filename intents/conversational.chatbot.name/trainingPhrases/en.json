@@ -1,28 +1,21 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "What are the signs of an email scam?",
+      "text": "what are you called?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "what are signs of an email scam?",
+      "text": "do you have a name?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "signs an email is a scam",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "how do I know if an email is a scam?",
+      "text": "what's your name?",
       "auto": true
     } ],
     "repeatCount": 1,

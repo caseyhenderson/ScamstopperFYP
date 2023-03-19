@@ -1,28 +1,35 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "What are the signs of an email scam?",
+      "text": "more cat photos please",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "what are signs of an email scam?",
+      "text": "can I have another cat photo?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "signs an email is a scam",
+      "text": "can I have another picture?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "how do I know if an email is a scam?",
+      "text": "another cat picture please?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "another cat please",
       "auto": true
     } ],
     "repeatCount": 1,

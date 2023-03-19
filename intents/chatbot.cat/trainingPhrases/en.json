@@ -1,37 +1,49 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "my name is ",
-      "auto": true
-    }, {
-      "text": "Lucy",
+      "text": "give cat",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "it's ",
-      "auto": true
-    }, {
-      "text": "Lucy",
+      "text": "CAT",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Lucy",
+      "text": "Can you cheer me up?",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "I'm ",
+      "text": "I need cheering up",
       "auto": true
-    }, {
-      "text": "Lucy",
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cat pics?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please show me a cat",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cat please",
       "auto": true
     } ],
     "repeatCount": 1,

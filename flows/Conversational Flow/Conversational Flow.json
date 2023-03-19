@@ -34,6 +34,13 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
   }
 }

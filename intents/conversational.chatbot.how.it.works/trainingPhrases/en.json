@@ -1,6 +1,20 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "how do you tick?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how do you work?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "what makes you work",
       "auto": true
     } ],

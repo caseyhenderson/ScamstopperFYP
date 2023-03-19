@@ -189,15 +189,126 @@
     },
     "name": "9a127e56-21a0-45fe-82fd-3b171753257e"
   }, {
-    "intent": "chatbot.favourite.band",
+    "intent": "conversational.chatbot.favourite.band",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
           "text": [ "Arctic Monkeys. I am from Sheffield, after all :)" ]
         },
         "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "A picture of the four members of the Arctic Monkeys, a rock band from Sheffield, England.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/am-band.jpeg",
+            "type": "image"
+          }, {
+            "actionLink": "https://arcticmonkeys.com/",
+            "subtitle": "Formed: 2002. Members: Alex Turner, Jamie Cook, Nick O'Malley, and Matt Helders",
+            "title": "Arctic Monkeys",
+            "type": "info"
+          }, {
+            "options": [ {
+              "link": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH?autoplay=true",
+              "text": "Listen on Spotify"
+            }, {
+              "link": "https://music.apple.com/gb/artist/arctic-monkeys/62820413",
+              "text": "Listen on Apple Music"
+            }, {
+              "link": "https://music.youtube.com/channel/UC8Yu1_yfN5qPh601Y4btsYw?feature=gws_kp_artist\u0026feature=gws_kp_artist",
+              "text": "Listen on YouTube Music"
+            }, {
+              "link": "https://www.deezer.com/en/artist/1182",
+              "text": "Listen on Deezer"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
       } ]
     },
     "name": "a962dd02-9939-4993-aa8d-b9098305359e"
+  }, {
+    "intent": "conversational.chatbot.name",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "My name is Scamstopper! I'm a helpful chatbot designed to help people avoid scams.", "I'm called Scamstopper, and stopping scams is what I do best!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e18d6c62-2550-4dbf-bc02-98176596332b"
+  }, {
+    "intent": "conversational.chatbot.colour",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yellow is my favourite colour! I think it's a happy colour :)" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "12759fb0-ab88-4024-ab87-9a7761ef5b09"
+  }, {
+    "intent": "conversational.chatbot.skynet",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'll be back." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Terminator",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/skynet-terminator.jpg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "dabef431-10da-4787-8870-33338f649228"
+  }, {
+    "intent": "conversational.chatbot.favourite.song",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "My favourite song? It's a tough one, but it's got to be A Certain Romance, by the Arctic Monkeys." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "A picture of the four members of the Arctic Monkeys, a rock band from Sheffield, England.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/wpsiatwin.jpeg",
+            "type": "image"
+          }, {
+            "actionLink": "https://arcticmonkeys.com/",
+            "subtitle": "From the 2006 album Whatever People Say I Am, That's What I'm Not.",
+            "title": "A Certain Romance",
+            "type": "info"
+          }, {
+            "options": [ {
+              "link": "https://open.spotify.com/track/2CbtdkBeW9Znt4vXTOafAl?autoplay=true",
+              "text": "Listen on Spotify"
+            }, {
+              "link": "https://music.apple.com/gb/album/a-certain-romance/111153953?i=111153858t",
+              "text": "Listen on Apple Music"
+            }, {
+              "link": "https://music.youtube.com/watch?v=zMupng6KQeE\u0026feature=gws_kp_track",
+              "text": "Listen on YouTube Music"
+            }, {
+              "link": "https://www.deezer.com/track/4315321?autoplay=true",
+              "text": "Listen on Deezer"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3838c8af-cf19-4be8-94e0-afb62ed1239a"
   } ]
 }

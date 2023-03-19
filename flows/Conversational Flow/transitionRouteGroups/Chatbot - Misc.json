@@ -23,5 +23,72 @@
       } ]
     },
     "name": "1aabecb7-1211-49d0-908d-d66616d5a949"
+  }, {
+    "intent": "chatbot.cat",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Cats coming up ..." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "An adorable baby cat staring at the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/cat1.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "An adorable baby cat staring at the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/cat2.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "An adorable baby cat staring at the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/cat3.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9340c45f-f60d-4490-8ce8-5f7dc853c17f"
+  }, {
+    "intent": "chatbot.more.cat",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "An adorable baby cat staring at the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/cat4.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "An adorable baby cat staring at the camera.",
+            "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/cat5.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Go on then ..." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f999b6f2-0150-4967-b446-1de4b158a38a"
   } ]
 }
