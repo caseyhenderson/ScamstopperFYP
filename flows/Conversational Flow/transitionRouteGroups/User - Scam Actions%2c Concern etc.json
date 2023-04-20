@@ -29,8 +29,33 @@
     "intent": "user.strange.email",
     "triggerFulfillment": {
       "messages": [ {
-        "text": {
-          "text": [ "It can often be worrying when you receive a strange email. I'm here to help.", "Sorry to hear that. I'm here to help, and we'll get to the bottom of this." ]
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://river-cocoa-377215.web.app/textAnalysis",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "It can often be worrying when you receive a strange email. I'm here to help. If you want me to check your email, click this card.",
+            "title": "Email Checker",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://river-cocoa-377215.web.app/textAnalysis",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "Sorry to hear that. I'm here to help, and we'll get to the bottom of this. If you want me to check your email, click this card.",
+            "title": "Email Checker",
+            "type": "info"
+          } ] ]
         },
         "languageCode": "en"
       } ]

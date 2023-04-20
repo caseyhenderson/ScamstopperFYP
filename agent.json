@@ -27,9 +27,5 @@
   "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
   "speakerIdSettings": {
   
-  },
-  "bigqueryExportSettings": {
-    "enabled": true,
-    "bigqueryTable": "projects/river-cocoa-377215/datasets/ConversationalData/tables/dialogflow_bigquery_export_data"
   }
 }

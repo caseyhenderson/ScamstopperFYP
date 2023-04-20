@@ -74,6 +74,13 @@
     "targetFlow": "Conversational Flow",
     "name": "c9fe0ed1-d83a-44c8-a984-6490ac9c288c"
   }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Email Check",
+    "name": "eadacd6d-d1b3-4062-bae7-857834ef307e"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     
@@ -120,5 +127,5 @@
     "modelType": "MODEL_TYPE_STANDARD",
     "classificationThreshold": 0.30000001
   },
-  "transitionRouteGroups": [ "Scam - User Concern", "Conversational - Chatbot Responses to User Opinion of it" ]
+  "transitionRouteGroups": [ "Scam - User Concern", "Conversational - Chatbot Responses to User Opinion of it", "Scam - User Direct Help" ]
 }

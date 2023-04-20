@@ -6,12 +6,19 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Of course! I'm going to need to see the text, so please copy-and-paste it into the chat box. Don't worry - copy and pasting it is perfectly safe.", "Absolutely! I'm going to need to see the text, so please copy-and-paste it into the chat box. Don't worry - copy and pasting it is perfectly safe." ]
+          "text": [ "Of course! I'm going to need to see the text, so please copy-and-paste it into the 'Email Checker' section on the website. Don't worry - copy and pasting it is perfectly safe.", "Absolutely! I'm going to need to see the text, so please copy-and-paste it into the 'Email Checker' section on the website. Don't worry - copy and pasting it is perfectly safe." ]
         },
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Text Upload Page",
+    "targetPage": "Email Check",
     "name": "21004c5d-b6f7-4132-b0e4-d4fd4d72c122"
+  }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Email Check",
+    "name": "1edc9870-cbca-4e5e-8c07-691c8060feb3"
   } ]
 }

@@ -6,8 +6,18 @@
   },
   "entryFulfillment": {
     "messages": [ {
-      "text": {
-        "text": [ "Hey! Please send me the text of the email or message that you'd like me to check." ]
+      "payload": {
+        "richContent": [ [ {
+          "actionLink": "https://river-cocoa-377215.web.app/textAnalysis",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+            }
+          },
+          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by navigating to the 'Email Checker' page, or by clicking on this card.",
+          "title": "Email Check",
+          "type": "info"
+        } ] ]
       },
       "languageCode": "en"
     } ]

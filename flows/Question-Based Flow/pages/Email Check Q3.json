@@ -1,0 +1,23 @@
+{
+  "name": "af54f21b-7b09-495e-8902-e263ad695874",
+  "displayName": "Email Check Q3",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi! Please copy-and-paste the text of the email you've received, and send it to me through the 'Email Checker' section on the website. When you're done, please come back and tell me what I said." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Questions Complete Gate",
+    "name": "afb9659f-d3d3-4bc5-8d8b-987f56d53790"
+  } ]
+}

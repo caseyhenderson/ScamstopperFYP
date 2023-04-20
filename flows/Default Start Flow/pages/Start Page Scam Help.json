@@ -1,0 +1,123 @@
+{
+  "name": "ac85f24e-64bf-4bc2-96cb-222a087bbb71",
+  "displayName": "Start Page Scam Help",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "If you'd like any advice, or if you'd like to know how to report a scam, please ask here." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "user.wants.to.report.fraud",
+    "triggerFulfillment": {
+    
+    },
+    "name": "6d4796bd-800e-4df1-85b5-b320c1e9557e"
+  }, {
+    "intent": "small_talk.user.needs_advice",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can provide all kinds of advice. For example, here's how to spot email scams." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "subtitle": "This may look convincing, but is typically where scammers fall down. For example, the domain (the bit after the @) is usually wrong on a scam email - i.e. @gogle.com instead of @google.com.",
+            "title": "Check the Email Address",
+            "type": "list"
+          }, {
+            "type": "divider"
+          }, {
+            "event": {
+              "name": "SPAG"
+            },
+            "subtitle": "Look out for spelling and grammar mistakes: often scam emails are full of these, and they're a dead giveaway.",
+            "title": "Spelling and Grammar Mistakes",
+            "type": "list"
+          }, {
+            "type": "divider"
+          }, {
+            "subtitle": "An email asking for money is another classic sign of a scam. Banks typically don't send these kinds of emails, and genuine bank emails typically have a way of telling if they're genuine - often information a scammer would not know (for example, Nationwide include the customer's postcode).",
+            "title": "Asking for Money",
+            "type": "list"
+          }, {
+            "type": "divider"
+          }, {
+            "subtitle": "Scam emails will also typically pressure you to make a decision (for example, a quick reply, or sending money), usually with a deadline. ",
+            "title": "Pressuring you to Make a Decision",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "A tell-tale sign of a scam is an email or message you weren't expecting, or something that seems too good to be true. Find out more by clicking this card - it'll take you to visit the Citizen's Advice website.",
+            "title": "Scam Sign #1",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "Common scams include: emails that look like official ones (aimed at getting you to put your details in on a page controlled by the scammer), texts you weren't expecting (particularly ones with links in them), and emails or messages that want personal or financial information. You can find out more by clicking this card.",
+            "title": "Scam Sign #2",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "Spelling and grammar mistakes are also a big give-away, as are vague contact details or attempts to pressure you into making a decision!",
+            "title": "Scam Sign #3",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "Online scams typically target personal information, bank details, or login info. They can be extremely clever, and anyone can get scammed. Click this card to find out more, courtesy of Citizen's Advice.",
+            "title": "Scam Sign #4",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "dce1db74-f270-4993-93a6-614a6d72dfb5"
+  } ]
+}

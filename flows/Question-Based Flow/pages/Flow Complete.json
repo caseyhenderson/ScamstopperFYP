@@ -45,7 +45,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "Email / Message Text Check",
+    "targetPage": "General Email Check",
     "name": "2fc698d1-7140-4c10-8231-0c953dddd317"
   }, {
     "condition": "true",

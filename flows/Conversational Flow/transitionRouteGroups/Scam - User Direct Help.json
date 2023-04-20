@@ -126,5 +126,17 @@
       } ]
     },
     "name": "c643893c-3f10-4ef3-b0e1-419168535d2f"
+  }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Of course! I'm going to need to see the text, so please copy-and-paste it into the 'Email Checker' section on the website. Don't worry - copy and pasting it is perfectly safe. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Upload Text",
+    "name": "532156a1-fabc-491c-a7b3-1c4ca2789d2a"
   } ]
 }

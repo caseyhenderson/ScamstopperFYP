@@ -1,0 +1,23 @@
+{
+  "name": "2a0b91b7-82b5-4caa-a664-d7d42a8300fa",
+  "displayName": "Email Check Q2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi! Please copy-and-paste the text of the email you've received, and send it to me through the 'Email Checker' section on the website. When you're done, please come back and tell me what I said." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Question Three",
+    "name": "44a796d8-c6c9-4d69-8f74-2235588eb128"
+  } ]
+}

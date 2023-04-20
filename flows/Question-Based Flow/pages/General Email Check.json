@@ -1,0 +1,23 @@
+{
+  "name": "607ae83b-86b7-41a4-9d31-7001e7265a59",
+  "displayName": "General Email Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi! Please copy-and-paste the text of the email you've received, and send it to me through the 'Email Checker' section on the website. When you're done, please come back and tell me what I said." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Flow Complete",
+    "name": "3fe7c3c7-9727-4c9f-a08d-6e45d84581e0"
+  } ]
+}

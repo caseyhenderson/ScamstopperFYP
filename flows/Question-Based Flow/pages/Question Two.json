@@ -53,12 +53,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "OK, I can check that link for you." ]
+          "text": [ "OK, I can check the email for you." ]
         },
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Link Check",
+    "targetPage": "Email Check Q2",
     "name": "8ad5b4ff-bf59-4d3a-b782-bce899c083b1"
   } ]
 }

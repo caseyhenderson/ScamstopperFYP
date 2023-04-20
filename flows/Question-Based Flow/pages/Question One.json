@@ -48,12 +48,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "That's OK. I can take a look at that for you - just put the email address in the chat box." ]
+          "text": [ "That's OK. If you'd like, I can check the email for you." ]
         },
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Ask Email Address",
+    "targetPage": "Email / Message Text Check Q1",
     "name": "683a0d0d-b6dd-4a55-9e44-e24872f9bad4"
   }, {
     "intent": "chatbot.enter.conversational.flow",

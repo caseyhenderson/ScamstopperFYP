@@ -1,49 +1,42 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "good@gmail.com",
-      "parameterId": "email",
+      "text": "is this email a scam",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "It is ",
-      "auto": true
-    }, {
-      "text": "good@gmail.com",
-      "parameterId": "email",
+      "text": "read this email and tell me if it's a scam",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "The address is ",
-      "auto": true
-    }, {
-      "text": "example@email.com",
-      "parameterId": "email",
+      "text": "can you read this email for me",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "example@email.com",
-      "parameterId": "email",
+      "text": "I have an email I want you to check",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "The email is ",
+      "text": "Check email please",
       "auto": true
-    }, {
-      "text": "example@email.com",
-      "parameterId": "email",
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please can you check this email for me?",
       "auto": true
     } ],
     "repeatCount": 1,

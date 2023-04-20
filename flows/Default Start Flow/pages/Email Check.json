@@ -1,0 +1,49 @@
+{
+  "name": "c6643b8f-c97f-4a06-9691-825801e31190",
+  "displayName": "Email Check",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "actionLink": "https://river-cocoa-377215.web.app/textAnalysis",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+            }
+          },
+          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by navigating to the 'Email Checker' page, or by clicking on this card.",
+          "title": "Email Check",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm very sorry to hear that. I can give you some advice, or I can help you report a scam. What would you like to do?", "Oh no, I'm really sorry to hear that. If I can help in any way, please let me know.", "I'm loading some advice for you now. We'll get to the bottom of this." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page Scam Help",
+    "name": "8781c445-ef2d-4145-b9f4-e6388fc53600"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's great! If you'd like any advice, feel free to ask me anything you'd like." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d3f04644-0fc0-44d9-b4e0-81f4573e46b1"
+  } ]
+}
