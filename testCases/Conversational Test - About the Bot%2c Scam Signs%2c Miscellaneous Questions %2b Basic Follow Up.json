@@ -1,0 +1,300 @@
+{
+  "name": "d6011dd3-b724-4dac-8a85-dcec012c30b1",
+  "displayName": "Conversational Test - About the Bot, Scam Signs, Miscellaneous Questions + Basic Follow Up",
+  "notes": "Simple chat with the bot, covering:\nBasics about the bot itself (name, purpose etc)\nScam signs\nExtra info about the bot (fav song, book etc)\nFollow-up question (how about a favourite book?)\nCompliment of bot\nEnd of convo",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hey"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.greetings.hello"
+      },
+      "currentPage": {
+        "name": "Request",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "This is Scamstopper calling, ready to bust some scams! What would you like help with?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "chat"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "chatbot.enter.conversational.flow"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Let's chat!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Who are you?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.identity"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I'm Scamstopper, a friendly chatbot on a mission to stop online scams and help people enjoy the Internet." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What do you do?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.work"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I work in cyberspace, helping people avoid scams!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I avoid scams?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "user.wants.info.on.scams"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Online scams can be extremely clever, and anyone can get scammed. Here's some more info, courtesy of Which! and Citizen's Advice." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Thank you!"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "small_talk.appraisal.thank_you"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Anytime. That's what I'm here for!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What's your name?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.name"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "My name is Scamstopper! I'm a helpful chatbot designed to help people avoid scams." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do you work?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.how.it.works"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In mysterious ways ... and by being designed so that anybody can chat to me, with no complicated tech terms. " ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "do you have a favourite song?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.favourite.song"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "My favourite song? It's a tough one, but it's got to be A Certain Romance, by the Arctic Monkeys." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how about a favourite book?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.book.recommendation"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Bell Jar, by Sylvia Plath. It's a fascinating book, but probably best read when you're in a good state of mind." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "It's been lovely talking to you"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.greetings.nice_to_talk_to_you"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I really enjoyed our chat! If you need help again, you know where I am!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1682114271,
+    "nanos": 359493000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

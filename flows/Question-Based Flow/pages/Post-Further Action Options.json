@@ -1,0 +1,158 @@
+{
+  "name": "36247c10-6506-4258-9735-7d9b76e733c9",
+  "displayName": "Post-Further Action Options",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I hope the resources were useful. Is there anything else I can help with?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Happy to help - ask away!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "acd09167-27c2-4668-a705-049324166433"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK. I hope I was able to help, and good luck. Speak soon!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "a8280912-f134-43e4-af55-6c207d7aee85"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK. Switching to conversational mode now - if there's anything you can think of, just ask away!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "d6b02629-de47-4eaa-a86c-da87f69612fc"
+  }, {
+    "intent": "small_talk.user.needs_advice",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/what-to-do-if-youve-been-scammed/",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "You can get help if you've been scammed. Find out more by clicking this card - it'll take you to visit the Citizen's Advice website.",
+            "title": "Get help from Citizen's Advice",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": "Report"
+            },
+            "icon": {
+              "color": "#000080",
+              "type": "local_police"
+            },
+            "link": "https://www.actionfraud.police.uk/",
+            "text": "You can also report a scam here at ActionFraud UK, a Police website.",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5a819c41-4498-4c6f-a4b4-dd0d22460202"
+  }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "General Email Check",
+    "name": "1a127949-4832-45a5-a9d4-766d87171f8c"
+  }, {
+    "intent": "small_talk.user.sad",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Being scammed can be absolutely horrible. I've got some advice for you here - it's going to be OK, and it's not your fault." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/what-to-do-if-youve-been-scammed/",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "subtitle": "You can get help if you've been scammed. Find out more by clicking this card - it'll take you to visit the Citizen's Advice website.",
+            "title": "Get help from Citizen's Advice",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4f873ce2-a231-4e10-872d-4618d73ee1c6"
+  }, {
+    "intent": "small.talk.user.mental.health.warning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry to hear that. Try to be kind to yourself. If you are experiencing a mental health crisis, please reach out to somebody. There are people who can help, and you are not alone. Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/ .You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I know I'm just a computer program, but I care, and so does the person who programmed me. He's seen a lot of people struggling, and he's also seen them get better. The first step is asking for help. Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a9ce2c78-2523-4011-a80f-6f385bc59912"
+  }, {
+    "intent": "small_talk.appraisal.thank_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Any time!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Flow Complete",
+    "name": "b95d54ec-8cb2-4621-9b56-4dac61eb2769"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure thing! Let's chat." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "79acbea7-48da-463c-bcbf-30944dd74706"
+  } ],
+  "transitionRouteGroups": [ "User - Scam Advice" ]
+}

@@ -14,12 +14,32 @@
               "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
             }
           },
-          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by navigating to the 'Email Checker' page, or by clicking on this card.",
+          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by clicking on this card. When you've received your result, please reply 'yes' if the Email Checker said the email was a scam, or 'no' if it didn't.",
           "title": "Email Check",
           "type": "info"
         } ] ]
       },
       "languageCode": "en"
     } ]
-  }
+  },
+  "transitionRoutes": [ {
+    "intent": "conversational.chatbot.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry to hear that. I'm loading some advice for you now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Scam Advice",
+    "name": "c06994f9-ac6a-4098-a076-9123c84ca65b"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Conversation",
+    "name": "63965780-cb6c-4317-a36d-15555f182c5c"
+  } ]
 }

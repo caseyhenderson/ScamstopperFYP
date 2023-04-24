@@ -1,0 +1,214 @@
+{
+  "name": "c46dae5f-cd24-4b8e-b435-6579892d57e1",
+  "displayName": "Question-Based Flow Test (3/3)",
+  "notes": "This tests the question-based flow when the user answers 'yes' to 3 of the questions involved.",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hey"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.greetings.hello"
+      },
+      "currentPage": {
+        "name": "Request",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello there! My name is Scamstopper, what can I do for you today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "questions"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "chatbot.enter_question_flow"
+      },
+      "currentPage": {
+        "name": "Question One",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Of course! I'll start the questions now." ]
+      }, {
+        "text": [ "I'm going to ask you three questions, and we're going to figure out if this is something you need to worry about. Let's go!" ]
+      }, {
+        "text": [ "First question: does the email address look suspicious? For example, an email from Google should be from a @google.com email address. Check carefully - scammers use very similar email addresses! " ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Question Two",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for letting me know. Scammers often use extremely similar email addresses / phone numbers to try and trick people into thinking they're legitimate, so this is a possible sign of a scam." ]
+      }, {
+        "text": [ "Second question! Does the message ask you to click on a link?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Question Three",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Check the URL carefully to make sure it's what you expect. Scammers often use official-sounding links to get you to give up personal information: however, if you click the address bar at the top of the screen, you can see the link and check if it's correct." ]
+      }, {
+        "text": [ "Hey there! Last question: is the email or message asking for personal info?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Scoring System",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Be careful with the personal information you supply. Scammers are often looking for personal information, so remember it's OK not to give it to people, especially if they're trying to pressure you. " ]
+      }, {
+        "text": [ "Thanks for answering those questions! How many questions did you answer yes to?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "3"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "number": 3
+      },
+      "triggeredIntent": {
+        "name": "scoring.system.three"
+      },
+      "currentPage": {
+        "name": "Post-Further Action Options",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you've answered yes to all questions, there's a very good chance that you've encountered a scam. I'm finding you some helpful information now." ]
+      }, {
+        "text": [ "I hope the resources were useful. Is there anything else I can help with?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no, thank you"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "number": 3
+      },
+      "triggeredIntent": {
+        "name": "conversational.chatbot.confirmation.no"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "Question-Based Flow"
+      },
+      "textResponses": [ {
+        "text": [ "OK. I hope I was able to help, and good luck. Speak soon!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/e2ffed56-df4f-453d-8f8f-af8f16d3a53d",
+        "displayName": "Question-Based Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1682276513,
+    "nanos": 334114000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

@@ -8,7 +8,7 @@
     "messages": [ {
       "payload": {
         "richContent": [ [ {
-          "subtitle": "Answer three simple questions, and I can help you figure out if it's a scam.",
+          "subtitle": "Answer three simple questions, and I can help you figure out if an email is a scam.",
           "title": "Start the Question Process",
           "type": "list"
         }, {
@@ -82,11 +82,22 @@
     "targetFlow": "Conversational Flow",
     "name": "da65d5d8-0792-43a3-baef-bde01d1db3e5"
   }, {
+    "intent": "small.talk.user.mental.health.warning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry to hear that. Try to be kind to yourself. If you are experiencing a mental health crisis, please reach out to somebody. There are people who can help, and you are not alone.                                                                   Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I'm very sorry to hear that. It may help to speak to someone. Remember, people do care, and you're not alone.                                                                 Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I know I'm just a computer program, but I care, and so does the person who programmed me. He's seen a lot of people struggling, and he's also seen them get better. The first step is asking for help.                                      Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "25836db4-f6d7-4b35-a77c-7113d9f21b86"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     
     },
     "name": "7828dadc-2267-486d-a2af-d42b5df2ae4e"
   } ],
-  "transitionRouteGroups": [ "Conversational - Confirmation", "Appraisal", "Conversational - Dialogue", "Emotions", "Conversational - Greetings", "User", "Conversational - Chatbot Personal Info / Status", "Conversational - Chatbot Responses to User Opinion of it", "Conversational - Chatbot Emotions", "Conversational - About the User", "Scam - User Direct Help" ]
+  "transitionRouteGroups": [ "Conversational - Confirmation", "Appraisal", "Conversational - Dialogue", "Emotions", "Conversational - Greetings", "User", "Conversational - Chatbot Personal Info / Status", "Conversational - Chatbot Responses to User Opinion of it", "Conversational - Chatbot Emotions", "Conversational - About the User", "Scam - User Direct Help", "Scam - User Concern" ]
 }

@@ -1,0 +1,169 @@
+{
+  "name": "9063877a-9a1b-4f07-b9a9-e9fc50eba72d",
+  "displayName": "Email Check – Advice and Report",
+  "notes": "Testing the 'Email Check' route, and verifying that both the advice and the report functionality work correctly.",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hey"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.greetings.hello"
+      },
+      "currentPage": {
+        "name": "Request",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello there! My name is Scamstopper. Think you've run into something shady online? I can help!" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "email check"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "user.has.message.they.want.checking"
+      },
+      "currentPage": {
+        "name": "Email Check",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Absolutely! I'm going to need to see the text, so please copy-and-paste it into the 'Email Checker' section on the website. Don't worry - copy and pasting it is perfectly safe." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "conversational.chatbot.confirmation.yes"
+      },
+      "currentPage": {
+        "name": "Start Page Scam Help",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Oh no, I'm really sorry to hear that. If I can help in any way, please let me know." ]
+      }, {
+        "text": [ "I can provide you with some advice on what to do now, or I can show you how to report a scam. What would you like me to do?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "advice"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "small_talk.user.needs_advice"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "report"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "user.wants.to.report.fraud"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can report fraud by clicking the button below, which will take you to ActionFraud UK, a Police website." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "thanks"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "small_talk.appraisal.thank_you"
+      },
+      "currentPage": {
+        "name": "Conversation",
+        "flow": "Conversational Flow"
+      },
+      "textResponses": [ {
+        "text": [ "It's my pleasure." ]
+      } ],
+      "currentFlow": {
+        "name": "projects/river-cocoa-377215/locations/europe-west2/agents/a8fa35b4-5082-4d55-acb5-75ac2122516a/flows/86678be4-9390-40da-bef8-3d42b187b03f",
+        "displayName": "Conversational Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1682276668,
+    "nanos": 660561000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

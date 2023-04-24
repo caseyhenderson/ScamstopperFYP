@@ -11,6 +11,7 @@
         "languageCode": "en"
       } ]
     },
+    "targetFlow": "Question-Based Flow",
     "name": "bfc3f58e-d6b8-4878-93b7-4d8f7171fb7b"
   }, {
     "intent": "user.worried.about.scam",
@@ -33,6 +34,7 @@
         "languageCode": "en"
       } ]
     },
+    "targetPage": "Email Check",
     "name": "cb5718df-b773-4a5f-a97e-7dc1a6514972"
   } ]
 }

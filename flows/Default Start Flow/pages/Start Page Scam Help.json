@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "If you'd like any advice, or if you'd like to know how to report a scam, please ask here." ]
+        "text": [ "I can provide you with some advice on what to do now, or I can show you how to report a scam. What would you like me to do?" ]
       },
       "languageCode": "en"
     } ]
@@ -15,109 +15,108 @@
   "transitionRoutes": [ {
     "intent": "user.wants.to.report.fraud",
     "triggerFulfillment": {
-    
-    },
-    "name": "6d4796bd-800e-4df1-85b5-b320c1e9557e"
-  }, {
-    "intent": "small_talk.user.needs_advice",
-    "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "I can provide all kinds of advice. For example, here's how to spot email scams." ]
+          "text": [ "You can report fraud by clicking the button below, which will take you to ActionFraud UK, a Police website." ]
         },
         "languageCode": "en"
       }, {
         "payload": {
           "richContent": [ [ {
-            "subtitle": "This may look convincing, but is typically where scammers fall down. For example, the domain (the bit after the @) is usually wrong on a scam email - i.e. @gogle.com instead of @google.com.",
-            "title": "Check the Email Address",
-            "type": "list"
-          }, {
-            "type": "divider"
-          }, {
             "event": {
-              "name": "SPAG"
+              "name": "Fraud Report"
             },
-            "subtitle": "Look out for spelling and grammar mistakes: often scam emails are full of these, and they're a dead giveaway.",
-            "title": "Spelling and Grammar Mistakes",
-            "type": "list"
-          }, {
-            "type": "divider"
-          }, {
-            "subtitle": "An email asking for money is another classic sign of a scam. Banks typically don't send these kinds of emails, and genuine bank emails typically have a way of telling if they're genuine - often information a scammer would not know (for example, Nationwide include the customer's postcode).",
-            "title": "Asking for Money",
-            "type": "list"
-          }, {
-            "type": "divider"
-          }, {
-            "subtitle": "Scam emails will also typically pressure you to make a decision (for example, a quick reply, or sending money), usually with a deadline. ",
-            "title": "Pressuring you to Make a Decision",
-            "type": "list"
-          } ] ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/",
-            "image": {
-              "src": {
-                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
-              }
+            "icon": {
+              "color": "#000080",
+              "type": "local_police"
             },
-            "subtitle": "A tell-tale sign of a scam is an email or message you weren't expecting, or something that seems too good to be true. Find out more by clicking this card - it'll take you to visit the Citizen's Advice website.",
-            "title": "Scam Sign #1",
-            "type": "info"
-          } ] ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "actionLink": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
-            "image": {
-              "src": {
-                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
-              }
-            },
-            "subtitle": "Common scams include: emails that look like official ones (aimed at getting you to put your details in on a page controlled by the scammer), texts you weren't expecting (particularly ones with links in them), and emails or messages that want personal or financial information. You can find out more by clicking this card.",
-            "title": "Scam Sign #2",
-            "type": "info"
-          } ] ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "actionLink": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
-            "image": {
-              "src": {
-                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
-              }
-            },
-            "subtitle": "Spelling and grammar mistakes are also a big give-away, as are vague contact details or attempts to pressure you into making a decision!",
-            "title": "Scam Sign #3",
-            "type": "info"
-          } ] ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/",
-            "image": {
-              "src": {
-                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
-              }
-            },
-            "subtitle": "Online scams typically target personal information, bank details, or login info. They can be extremely clever, and anyone can get scammed. Click this card to find out more, courtesy of Citizen's Advice.",
-            "title": "Scam Sign #4",
-            "type": "info"
+            "link": "https://www.actionfraud.police.uk/",
+            "text": "Report fraud here at ActionFraud UK, a Police website.",
+            "type": "button"
           } ] ]
         },
         "languageCode": "en"
       } ]
     },
+    "targetFlow": "Conversational Flow",
+    "name": "6d4796bd-800e-4df1-85b5-b320c1e9557e"
+  }, {
+    "intent": "small_talk.user.needs_advice",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam",
+              "text": "Get help with scams from Citizen's Advice"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+              "text": "Scam advice from Which!"
+            }, {
+              "image": {
+                "src": {
+                  "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+                }
+              },
+              "link": "https://www.actionfraud.police.uk/",
+              "text": "Report a scam at ActionFraud UK"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
     "name": "dce1db74-f270-4993-93a6-614a6d72dfb5"
-  } ]
+  }, {
+    "intent": "chatbot.enter_question_flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Question-Based Flow",
+    "name": "e39cf5e0-ae35-4616-b90f-1039e7639679"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "af859a65-eb4b-49f0-a6fe-94fbf7e2fed3"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't catch that. Please can you repeat it?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7943c649-4200-4b4b-b29c-1fb2a87f5ee2"
+  }, {
+    "targetFlow": "Conversational Flow",
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm afraid I didn't catch that. Would you mind asking again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ee2d0bfe-c286-4e4c-8252-ea66fd0efb32"
+  } ],
+  "transitionRouteGroups": [ "Appraisal", "Scam - User Concern", "Conversational - Dialogue", "Conversational - Chatbot Responses to User Opinion of it", "Conversational - About the User", "Conversational - Chatbot Emotions", "Conversational - Chatbot Personal Info / Status", "Conversational - Confirmation", "Conversational - Greetings", "Scam - User Advice", "Scam - User Direct Help", "User" ]
 }

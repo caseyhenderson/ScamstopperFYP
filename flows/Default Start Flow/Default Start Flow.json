@@ -81,6 +81,18 @@
     "targetPage": "Email Check",
     "name": "eadacd6d-d1b3-4062-bae7-857834ef307e"
   }, {
+    "intent": "small.talk.user.mental.health.warning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I know I'm just a computer program, but I care, and so does the person who programmed me. He's seen a lot of people struggling, and he's also seen them get better. The first step is asking for help.                                      Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/. ", "I'm very sorry to hear that. It may help to speak to someone. Remember, people do care, and you're not alone.                                                                 Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 ", "I'm sorry to hear that. Try to be kind to yourself. If you are experiencing a mental health crisis, please reach out to somebody. There are people who can help, and you are not alone.                                                                   Call the Samaritans free on 116 123, or visit https://www.samaritans.org/how-we-can-help/contact-samaritan/                                                               You can call Mind here free on 0300 123 3393, or use their online tool https://www.mind.org.uk/need-urgent-help/.                                 " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "134b511c-50b5-49cf-9217-38949e11811a"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     

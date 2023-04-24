@@ -1,6 +1,6 @@
 {
-  "name": "607ae83b-86b7-41a4-9d31-7001e7265a59",
-  "displayName": "General Email Check",
+  "name": "91704902-b242-425a-84db-15cade77f79f",
+  "displayName": "Email Check Q1",
   "form": {
   
   },
@@ -25,26 +25,33 @@
   "transitionRoutes": [ {
     "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I'm very sorry to hear that. Being scammed can be a truly horrible experience. I'm finding some help for you now.", "I'm sorry to hear that. Being scammed can be an awful experience, but you're not alone. I'm finding some help for you now." ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
     "targetPage": "Scam Check: Confirmed",
-    "name": "3fe7c3c7-9727-4c9f-a08d-6e45d84581e0"
+    "name": "01a9c2c6-1f9b-43d5-a40b-7160e9f02f07"
   }, {
     "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Good to hear!" ]
+          "text": [ "That's good. Let's go to question two to be sure." ]
         },
         "languageCode": "en"
       } ]
     },
-    "targetFlow": "Conversational Flow",
-    "name": "cec92c53-9169-4892-a352-8442b013d987"
+    "targetPage": "Question Two",
+    "name": "cacf8546-1f30-4aa6-ae12-9f9886947ba6"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hmm. Let's continue with the questions then." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Two",
+    "name": "d5e6f8a5-8e91-4fdd-821f-95178cf1ed50"
   } ]
 }

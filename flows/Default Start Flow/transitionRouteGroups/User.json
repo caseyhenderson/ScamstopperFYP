@@ -304,11 +304,5 @@
     },
     "targetPage": "End Session",
     "name": "325b6c3e-acd4-4a0a-ab47-1ff274033558"
-  }, {
-    "intent": "user_thinks_they're_being_scammed",
-    "triggerFulfillment": {
-    
-    },
-    "name": "3bc63786-cb2d-48e2-9a8b-53d8e19287fd"
   } ]
 }

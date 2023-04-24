@@ -5,19 +5,46 @@
   
   },
   "entryFulfillment": {
-  
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "link": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam",
+            "text": "Get help with scams from Citizen's Advice"
+          }, {
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "link": "https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9",
+            "text": "Scam advice from Which!"
+          }, {
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+              }
+            },
+            "link": "https://www.actionfraud.police.uk/",
+            "text": "Report a scam at ActionFraud UK"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
   },
   "transitionRoutes": [ {
     "condition": "true",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "This is a placeholder Further Action page for when Scamstopper thinks it's likely that a user has been scammed." ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
-    "targetPage": "Flow Complete",
+    "targetPage": "Post-Further Action Options",
     "name": "89ded81f-5283-4e7e-a49a-f63e30971025"
   } ]
 }

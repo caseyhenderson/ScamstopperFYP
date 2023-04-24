@@ -14,8 +14,17 @@
               "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
             }
           },
-          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by navigating to the 'Email Checker' page, or by clicking on this card.",
+          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by clicking on this card.",
           "title": "Email Check",
+          "type": "info"
+        }, {
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+            }
+          },
+          "subtitle": "Hey there! Did the email checker say it was a scam or not?",
+          "title": "What was the result?",
           "type": "info"
         } ] ]
       },
@@ -27,7 +36,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "I'm very sorry to hear that. I can give you some advice, or I can help you report a scam. What would you like to do?", "Oh no, I'm really sorry to hear that. If I can help in any way, please let me know.", "I'm loading some advice for you now. We'll get to the bottom of this." ]
+          "text": [ "Oh no, I'm really sorry to hear that. If I can help in any way, please let me know.", "I'm very sorry to hear that. We'll get to the bottom of this." ]
         },
         "languageCode": "en"
       } ]
@@ -44,6 +53,7 @@
         "languageCode": "en"
       } ]
     },
+    "targetPage": "Request",
     "name": "d3f04644-0fc0-44d9-b4e0-81f4573e46b1"
   } ]
 }

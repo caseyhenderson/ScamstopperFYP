@@ -189,16 +189,5 @@
       } ]
     },
     "name": "3ec972b0-ef06-4166-957d-d4c0bf0a3d84"
-  }, {
-    "intent": "billy.skin.thief",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "go away billy", "no you can''t have my skin", "chatbots don't have skin to steal, Billy", "don't traumatise my AI, Billy", "Fear me, Billy", "How about I take YOUR skin?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "1a4cfb17-8089-48e1-9664-24b60a6d777b"
   } ]
 }

@@ -1,0 +1,49 @@
+{
+  "name": "da93e3cc-9986-43e9-8bce-25f28b41c6db",
+  "displayName": "Scam Advice",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "actionLink": "https://www.citizensadvice.org.uk/consumer/scams/what-to-do-if-youve-been-scammed/",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+            }
+          },
+          "subtitle": "You can get help if you've been scammed. Find out more by clicking this card - it'll take you to visit the Citizen's Advice website.",
+          "title": "Get help from Citizen's Advice",
+          "type": "info"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "event": {
+            "name": "Report"
+          },
+          "icon": {
+            "color": "#000080",
+            "type": "local_police"
+          },
+          "link": "https://www.actionfraud.police.uk/",
+          "text": "You can also report a scam here at ActionFraud UK, a Police website.",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Conversation",
+    "name": "2bba6d8c-64b2-4d3e-874b-b32820cf8867"
+  } ]
+}

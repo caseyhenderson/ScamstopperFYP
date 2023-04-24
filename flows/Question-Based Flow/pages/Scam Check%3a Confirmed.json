@@ -1,0 +1,23 @@
+{
+  "name": "3eb68ba9-35cf-4f0b-8cc1-f1eec2201dea",
+  "displayName": "Scam Check: Confirmed",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm very sorry to hear that you've been scammed. Here are some resources that may help. You should also speak to your bank if financial information is involved." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Further Action",
+    "name": "4c5c0600-6901-442e-95b7-20c124bbd74e"
+  } ]
+}

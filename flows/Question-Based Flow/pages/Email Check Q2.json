@@ -6,18 +6,52 @@
   },
   "entryFulfillment": {
     "messages": [ {
-      "text": {
-        "text": [ "Hi! Please copy-and-paste the text of the email you've received, and send it to me through the 'Email Checker' section on the website. When you're done, please come back and tell me what I said." ]
+      "payload": {
+        "richContent": [ [ {
+          "actionLink": "https://river-cocoa-377215.web.app/textAnalysis",
+          "image": {
+            "src": {
+              "rawUrl": "https://storage.cloud.google.com/dialogflow-fyp-resources/scamstopper-widget-2.png"
+            }
+          },
+          "subtitle": "Hey! Please send me the text of the email or message that you'd like me to check. You can do this by clicking on this card. When you've received your result, please reply 'yes' if the Email Checker said the email was a scam, or 'no' if it didn't.",
+          "title": "Email Check",
+          "type": "info"
+        } ] ]
       },
       "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
-    "condition": "true",
+    "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
     
     },
+    "targetPage": "Scam Check: Confirmed",
+    "name": "fdb1c253-1647-4c9f-b6f4-4c1744720ac2"
+  }, {
+    "intent": "conversational.chatbot.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's good. Let's go to question three." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
     "targetPage": "Question Three",
-    "name": "44a796d8-c6c9-4d69-8f74-2235588eb128"
+    "name": "3c08ce41-0a05-47fe-b1a9-d8c62ca2fcfd"
+  }, {
+    "intent": "conversational.chatbot.confirmation.not.sure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hmm. Let's go to the next question." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question Three",
+    "name": "20421dd2-2e36-49f7-b264-32860eddf8fd"
   } ]
 }

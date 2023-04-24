@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "How many questions did you answer yes to?" ]
+        "text": [ "Thanks for answering those questions! How many questions did you answer yes to?" ]
       },
       "languageCode": "en"
     } ]
@@ -17,7 +17,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "If you answered zero, then it's likely that the situation is not a scam. Chances are, you don't need to worry." ]
+          "text": [ "If you answered zero, then it's likely that the situation is not a scam. Chances are, you don't need to worry. You can always ask me to check the email you've received as well, just in case!" ]
         },
         "languageCode": "en"
       } ]
@@ -29,7 +29,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "If you answered yes to one of those questions, it's possible that you have encountered a scam, particularly if the email or message you received was unexpected.                                            I'm working on a plan - in the mean-time, here are some resources which may help:                                                                     Citizen's Advice https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/                                                            Action Fraud (a Police website) if you think you've been a victim of fraud                      \nhttps://www.actionfraud.police.uk/                                                            Which?                                                                                                       https://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+          "text": [ "If you answered yes to one of those questions, it's possible that you have encountered a scam, particularly if the email or message you received was unexpected. I'll find you some helpful information, just in case.                                         " ]
         },
         "languageCode": "en"
       } ]
@@ -41,7 +41,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "If you've answered yes to two of the questions, that means it's pretty likely that you've encountered a scam. You can find some helpful info here while I work on a plan.              \nCitizen’s Advice\nhttps://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/\nAction Fraud \nhttps://www.actionfraud.police.uk/\nWhich?\nhttps://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+          "text": [ "If you've answered yes to two of the questions, that means it's pretty likely that you've encountered a scam. I'm finding you some helpful information now." ]
         },
         "languageCode": "en"
       } ]
@@ -53,7 +53,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "If you've answered yes to all questions, there's a very good chance that you've encountered a scam. Here are some useful links while I work on a plan                                   \nCitizen’s Advice\nhttps://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/\nAction Fraud \nhttps://www.actionfraud.police.uk/\nWhich?\nhttps://www.which.co.uk/consumer-rights/advice/how-to-spot-a-scam-alFiz5h8mnJ9" ]
+          "text": [ "If you've answered yes to all questions, there's a very good chance that you've encountered a scam. I'm finding you some helpful information now." ]
         },
         "languageCode": "en"
       } ]

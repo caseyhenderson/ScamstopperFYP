@@ -15,16 +15,26 @@
   "transitionRoutes": [ {
     "intent": "conversational.chatbot.confirmation.yes",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Be careful with the personal information you supply. Scammers are often looking for personal information, so remember it's OK not to give it to people, especially if they're trying to pressure you. " ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    "targetPage": "Questions Complete Gate",
+    "targetPage": "Scoring System",
     "name": "fde570cf-0ef3-4a7c-af53-2e19fdb99e26"
   }, {
     "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "That's good! Always be careful with your personal information - it's a big target for scammers." ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    "targetPage": "Questions Complete Gate",
+    "targetPage": "Scoring System",
     "name": "3e7adaa6-56bf-43e5-9c28-d4e81fc95f7d"
   }, {
     "intent": "conversational.chatbot.confirmation.cancel",
@@ -40,5 +50,17 @@
     },
     "targetPage": "Email Check Q3",
     "name": "99d28a39-e51c-436a-8e16-afbc1e2b1164"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure, let's chat!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "926e643f-89db-4e5d-9709-94f533aa7b6b"
   } ]
 }

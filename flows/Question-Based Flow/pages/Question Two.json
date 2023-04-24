@@ -17,7 +17,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Check the URL carefully to make sure it's what you expect. Scammers often use official-sounding links to get you to give up personal information: however, if you click the address bar, you can see the link and check it's correct." ]
+          "text": [ "Check the website link carefully to make sure it's what you expect. Scammers often use official-sounding links to get you to give up personal information: however, if you click the address bar at the top of the screen, you can see the real link and check if it's correct." ]
         },
         "languageCode": "en"
       } ]
@@ -29,7 +29,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "That's good! It's important to always be careful when clicking links (especially unexpected ones), so make sure to check before you click. And, if you're already on the page, it's a good ides to check the address bar before you do anything else." ]
+          "text": [ "That's good! It's important to always be careful when clicking links (especially unexpected ones), so make sure to check before you click. And, if you're already on the page, it's a good ides to check the address bar (at the top of the screen) before you do anything else." ]
         },
         "languageCode": "en"
       } ]
@@ -60,5 +60,29 @@
     },
     "targetPage": "Email Check Q2",
     "name": "8ad5b4ff-bf59-4d3a-b782-bce899c083b1"
+  }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure thing, taking you to the email checker now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Email Check Q2",
+    "name": "93f4ce25-1959-48dc-8fb1-054d69e587ef"
+  }, {
+    "intent": "chatbot.enter.conversational.flow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure thing, let's chat!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Conversational Flow",
+    "name": "3f48861e-b7aa-4ab7-bf40-bb6fcf63c00d"
   } ]
 }

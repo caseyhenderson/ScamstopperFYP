@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "First question: does the email address look correct? For example, an email from Google should be from a @google.com email address. Check carefully - scammers use very similar email addresses! " ]
+        "text": [ "First question: does the email address look suspicious? For example, an email from Google should be from a @google.com email address. Check carefully - scammers use very similar email addresses! " ]
       },
       "languageCode": "en"
     } ]
@@ -17,7 +17,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "That's a good start! Scammers often use extremely similar email addresses / phone numbers to try and trick people into thinking they're legitimate." ]
+          "text": [ "Thanks for letting me know. Scammers often use extremely similar email addresses / phone numbers to try and trick people into thinking they're legitimate, so this is a possible sign of a scam." ]
         },
         "languageCode": "en"
       } ]
@@ -27,7 +27,12 @@
   }, {
     "intent": "conversational.chatbot.confirmation.no",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "That's good. Let's move to question 2." ]
+        },
+        "languageCode": "en"
+      } ]
     },
     "targetPage": "Question Two",
     "name": "4aac047f-f0b1-4c42-9f78-664d2287c4f2"
@@ -53,7 +58,7 @@
         "languageCode": "en"
       } ]
     },
-    "targetPage": "Email / Message Text Check Q1",
+    "targetPage": "Email Check Q1",
     "name": "683a0d0d-b6dd-4a55-9e44-e24872f9bad4"
   }, {
     "intent": "chatbot.enter.conversational.flow",
@@ -62,5 +67,17 @@
     },
     "targetFlow": "Conversational Flow",
     "name": "397730ea-e4c8-49f6-bfa6-c51bc652267b"
+  }, {
+    "intent": "user.email.check",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sure thing. Taking you to the email checker now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Email Check Q1",
+    "name": "5340173a-81a5-4f41-a2f2-895f5e367033"
   } ]
 }

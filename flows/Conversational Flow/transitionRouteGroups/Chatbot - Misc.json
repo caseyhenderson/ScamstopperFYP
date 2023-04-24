@@ -2,28 +2,6 @@
   "name": "1422e85f-6842-4399-9754-e21c14aa797f",
   "displayName": "Chatbot - Misc",
   "transitionRoutes": [ {
-    "intent": "billy.skin.thief",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "go away billy", "no you can''t have my skin", "chatbots don't have skin to steal, Billy", "don't traumatise my AI, Billy", "Fear me, Billy", "How about I take YOUR skin?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "7db46139-6bad-44d2-909b-d48a33b182d6"
-  }, {
-    "intent": "chatbot.lucy",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I've got a message from Casey: it says he loves you.", "My developer's favourite person!" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "1aabecb7-1211-49d0-908d-d66616d5a949"
-  }, {
     "intent": "chatbot.cat",
     "triggerFulfillment": {
       "messages": [ {
